@@ -5761,25 +5761,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joeln\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\USUARIO1\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joeln\\Desktop\\progra\\ProyectoVacunacion\\Proyecto\\Proyecto.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO1\\Desktop\\Proyecto POO\\proyecto-final-grupo18\\Proyecto\\Proyecto.csproj",
       "projectName": "Proyecto",
-      "projectPath": "C:\\Users\\joeln\\Desktop\\progra\\ProyectoVacunacion\\Proyecto\\Proyecto.csproj",
-      "packagesPath": "C:\\Users\\joeln\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joeln\\Desktop\\progra\\ProyectoVacunacion\\Proyecto\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO1\\Desktop\\Proyecto POO\\proyecto-final-grupo18\\Proyecto\\Proyecto.csproj",
+      "packagesPath": "C:\\Users\\USUARIO1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO1\\Desktop\\Proyecto POO\\proyecto-final-grupo18\\Proyecto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\joeln\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5842,13 +5840,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\joeln\\Desktop\\progra\\ProyectoVacunacion\\Proyecto\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
-    }
-  ]
+  }
 }
