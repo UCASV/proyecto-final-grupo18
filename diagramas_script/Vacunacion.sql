@@ -151,3 +151,10 @@ INNER JOIN Ciudadano as ciu ON c.DUI_ciudadano = ciu.DUI
 
 
 select c.id 'Id', c.lugar 'Lugar', c.fecha 'Fecha', c.hora 'Hora', c.id_dosis 'Dosis', c.DUI_ciudadano 'DUI ciudadano' from Cita as c
+
+
+SELECT  c.DUI, c.nombre, c.direccion_casa, c.email, c.telefono, e.Enfermedades, em.Empleo, d.dosis
+FROM Ciudadano as c
+INNER JOIN Enfermedades as e ON c.id_enfermedades = e.id
+INNER JOIN Empleo as em ON c.id_empleo = em.id
+INNER JOIN Dosis as d ON c.id_dosis = d.id

@@ -106,11 +106,11 @@ namespace Proyecto
                 MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
                 
-                MessageBox.Show(txtuser.Text, "Clinica",
-                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                //MessageBox.Show(txtuser.Text, "Clinica",
+                //MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
-                MessageBox.Show(txtpass.Text, "Clinica",
-                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                //MessageBox.Show(txtpass.Text, "Clinica",
+                //MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
             }
             else
@@ -118,7 +118,7 @@ namespace Proyecto
                 MessageBox.Show("Bienvenido", "Clinica",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 //Muestro el formulario principal falta esto.
-                Formcita frm= new Formcita();
+                Formciudadano frm= new Formciudadano();
                 frm.Show();
                 this.Hide();
             }

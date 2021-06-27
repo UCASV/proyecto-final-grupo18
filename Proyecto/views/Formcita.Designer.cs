@@ -262,7 +262,7 @@ namespace Proyecto
             // 
             this.textBox3.Location = new System.Drawing.Point(715, 287);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(142, 23);
+            this.textBox3.Size = new System.Drawing.Size(201, 23);
             this.textBox3.TabIndex = 18;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -281,7 +281,7 @@ namespace Proyecto
             // 
             this.txttelefono.Location = new System.Drawing.Point(715, 360);
             this.txttelefono.Name = "txttelefono";
-            this.txttelefono.Size = new System.Drawing.Size(142, 23);
+            this.txttelefono.Size = new System.Drawing.Size(201, 23);
             this.txttelefono.TabIndex = 20;
             // 
             // label5
