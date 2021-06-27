@@ -48,13 +48,13 @@ namespace Proyecto
         private void Formcita_Load(object sender, EventArgs e)
         {
             controllerCita CCita = new controllerCita();
-            CCita.read(dgvcabina, CboxDosis);
+            CCita.read(dgvcabina, CboxDosis, CboxDUI );
         }
         private void button7_Click(object sender, EventArgs e)
         {
             controllerCita CCita = new controllerCita();
-            CCita.insert(txtLugar, DTPfecha, DTPhora, CboxDosis);
-            CCita.read(dgvcabina, CboxDosis);
+            CCita.insert(txtID, txtLugar, DTPfecha, DTPhora, CboxDosis, CboxDUI);
+            CCita.read(dgvcabina, CboxDosis, CboxDUI);
         }
     }
 }
