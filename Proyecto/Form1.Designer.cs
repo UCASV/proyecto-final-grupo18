@@ -158,7 +158,7 @@ namespace Proyecto
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.button1.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.button1.Location = new System.Drawing.Point(364, 392);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(477, 35);
