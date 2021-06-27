@@ -7,9 +7,13 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\joeln\\.dotnet\\store\\|arch|\\|tfm|",
+<<<<<<< Updated upstream
       "C:\\Users\\joeln\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+=======
+      "C:\\Users\\User\\.nuget\\packages"
+>>>>>>> Stashed changes
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

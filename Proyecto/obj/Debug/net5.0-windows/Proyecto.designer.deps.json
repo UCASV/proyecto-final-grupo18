@@ -6,6 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
+<<<<<<< Updated upstream
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -14,6 +15,9 @@
           }
         }
       },
+=======
+      "Humanizer.Core/2.8.26": {},
+>>>>>>> Stashed changes
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/2.0.1": {
         "dependencies": {
@@ -27,6 +31,7 @@
           "System.Runtime.Caching": "4.7.0",
           "System.Security.Principal.Windows": "4.7.0",
           "System.Text.Encoding.CodePages": "4.7.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
@@ -93,6 +98,11 @@
           }
         }
       },
+=======
+        }
+      },
+      "Microsoft.Data.SqlClient.SNI.runtime/2.0.1": {},
+>>>>>>> Stashed changes
       "Microsoft.EntityFrameworkCore/5.0.7": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.7",
@@ -103,6 +113,7 @@
           "System.Collections.Immutable": "5.0.0",
           "System.ComponentModel.Annotations": "5.0.0",
           "System.Diagnostics.DiagnosticSource": "5.0.1"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {
@@ -119,53 +130,70 @@
           }
         }
       },
+=======
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.7": {},
+>>>>>>> Stashed changes
       "Microsoft.EntityFrameworkCore.Analyzers/5.0.7": {},
       "Microsoft.EntityFrameworkCore.Design/5.0.7": {
         "dependencies": {
           "Humanizer.Core": "2.8.26",
           "Microsoft.CSharp": "4.7.0",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.7"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {
             "assemblyVersion": "5.0.7.0",
             "fileVersion": "5.0.721.26102"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/5.0.7": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll": {
             "assemblyVersion": "5.0.7.0",
             "fileVersion": "5.0.721.26102"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.EntityFrameworkCore.SqlServer/5.0.7": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.7"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {
             "assemblyVersion": "5.0.7.0",
             "fileVersion": "5.0.721.26102"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "5.0.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.Extensions.Caching.Memory/5.0.0": {
@@ -175,28 +203,35 @@
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Microsoft.Extensions.Options": "5.0.0",
           "Microsoft.Extensions.Primitives": "5.0.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "5.0.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.Extensions.DependencyInjection/5.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
@@ -213,12 +248,18 @@
           }
         }
       },
+=======
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {},
+>>>>>>> Stashed changes
       "Microsoft.Extensions.Logging/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "5.0.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Microsoft.Extensions.Options": "5.0.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
@@ -235,10 +276,16 @@
           }
         }
       },
+=======
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {},
+>>>>>>> Stashed changes
       "Microsoft.Extensions.Options/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "Microsoft.Extensions.Primitives": "5.0.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/net5.0/Microsoft.Extensions.Options.dll": {
@@ -255,6 +302,11 @@
           }
         }
       },
+=======
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {},
+>>>>>>> Stashed changes
       "Microsoft.Identity.Client/4.14.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -266,18 +318,22 @@
           "System.Runtime.Serialization.Primitives": "4.3.0",
           "System.Security.SecureString": "4.3.0",
           "System.Xml.XDocument": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {
             "assemblyVersion": "4.14.0.0",
             "fileVersion": "4.14.0.0"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.IdentityModel.JsonWebTokens/5.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.6.0",
           "Newtonsoft.Json": "10.0.1"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
@@ -294,16 +350,24 @@
           }
         }
       },
+=======
+        }
+      },
+      "Microsoft.IdentityModel.Logging/5.6.0": {},
+>>>>>>> Stashed changes
       "Microsoft.IdentityModel.Protocols/5.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Logging": "5.6.0",
           "Microsoft.IdentityModel.Tokens": "5.6.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll": {
             "assemblyVersion": "5.6.0.0",
             "fileVersion": "5.6.0.61018"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.6.0": {
@@ -311,12 +375,15 @@
           "Microsoft.IdentityModel.Protocols": "5.6.0",
           "Newtonsoft.Json": "10.0.1",
           "System.IdentityModel.Tokens.Jwt": "5.6.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
             "assemblyVersion": "5.6.0.0",
             "fileVersion": "5.6.0.61018"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.IdentityModel.Tokens/5.6.0": {
@@ -324,12 +391,15 @@
           "Microsoft.IdentityModel.Logging": "5.6.0",
           "Newtonsoft.Json": "10.0.1",
           "System.Security.Cryptography.Cng": "4.5.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
             "assemblyVersion": "5.6.0.0",
             "fileVersion": "5.6.0.61018"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -338,6 +408,7 @@
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
           "System.Security.Principal.Windows": "4.7.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
@@ -358,11 +429,14 @@
             "assemblyVersion": "4.1.3.0",
             "fileVersion": "4.700.19.56404"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Microsoft.Win32.SystemEvents/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
@@ -377,6 +451,8 @@
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "Newtonsoft.Json/10.0.1": {
@@ -407,12 +483,15 @@
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.1.20720"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "runtime.native.System/4.3.0": {
@@ -440,6 +519,7 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.Concurrent.dll": {
@@ -456,6 +536,11 @@
           }
         }
       },
+=======
+        }
+      },
+      "System.Collections.Immutable/5.0.0": {},
+>>>>>>> Stashed changes
       "System.Collections.NonGeneric/4.3.0": {
         "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
@@ -464,12 +549,15 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.NonGeneric.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Collections.Specialized/4.3.0": {
@@ -481,17 +569,21 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.Specialized.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.ComponentModel/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.ComponentModel.dll": {
@@ -508,17 +600,25 @@
           }
         }
       },
+=======
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {},
+>>>>>>> Stashed changes
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.ComponentModel.TypeConverter/4.3.0": {
@@ -538,24 +638,30 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Configuration.ConfigurationManager/4.7.0": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "4.7.0",
           "System.Security.Permissions": "4.7.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
             "assemblyVersion": "4.0.3.0",
             "fileVersion": "4.700.19.56404"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -565,6 +671,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+<<<<<<< Updated upstream
       "System.Diagnostics.DiagnosticSource/5.0.1": {
         "runtime": {
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -573,6 +680,9 @@
           }
         }
       },
+=======
+      "System.Diagnostics.DiagnosticSource/5.0.1": {},
+>>>>>>> Stashed changes
       "System.Diagnostics.Tools/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -591,6 +701,7 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "Microsoft.Win32.SystemEvents": "4.7.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/System.Drawing.Common.dll": {
@@ -611,6 +722,8 @@
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Dynamic.Runtime/4.3.0": {
@@ -629,12 +742,15 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Dynamic.Runtime.dll": {
             "assemblyVersion": "4.0.12.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Globalization/4.3.0": {
@@ -652,6 +768,7 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.3/System.Globalization.Extensions.dll": {
@@ -666,6 +783,8 @@
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.IdentityModel.Tokens.Jwt/5.6.0": {
@@ -673,12 +792,15 @@
           "Microsoft.IdentityModel.JsonWebTokens": "5.6.0",
           "Microsoft.IdentityModel.Tokens": "5.6.0",
           "Newtonsoft.Json": "10.0.1"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {
             "assemblyVersion": "5.6.0.0",
             "fileVersion": "5.6.0.61018"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.IO/4.3.0": {
@@ -705,12 +827,15 @@
       "System.IO.FileSystem.Primitives/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Linq/4.3.0": {
@@ -720,12 +845,15 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.dll": {
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Linq.Expressions/4.3.0": {
@@ -747,12 +875,15 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.Expressions.dll": {
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Net.NameResolution/4.3.0": {
@@ -771,6 +902,7 @@
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "runtime.native.System": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.3/System.Net.NameResolution.dll": {
@@ -785,6 +917,8 @@
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Net.Primitives/4.3.0": {
@@ -802,12 +936,15 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.ObjectModel.dll": {
             "assemblyVersion": "4.0.13.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Private.DataContractSerialization/4.3.0": {
@@ -837,12 +974,15 @@
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0",
           "System.Xml.XmlSerializer": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Private.DataContractSerialization.dll": {
             "assemblyVersion": "4.1.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Private.Uri/4.3.2": {
@@ -867,12 +1007,15 @@
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Reflection.Emit.ILGeneration/4.3.0": {
@@ -880,12 +1023,15 @@
           "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Reflection.Emit.Lightweight/4.3.0": {
@@ -894,12 +1040,15 @@
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Reflection.Extensions/4.3.0": {
@@ -921,12 +1070,15 @@
         "dependencies": {
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -947,6 +1099,7 @@
       "System.Runtime.Caching/4.7.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.7.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/System.Runtime.Caching.dll": {
@@ -961,6 +1114,8 @@
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.700.19.56404"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -993,12 +1148,15 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Numerics.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Runtime.Serialization.Formatters/4.3.0": {
@@ -1008,12 +1166,15 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Serialization.Primitives": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Runtime.Serialization.Json/4.3.0": {
@@ -1021,30 +1182,37 @@
           "System.IO": "4.3.0",
           "System.Private.DataContractSerialization": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Serialization.Json.dll": {
             "assemblyVersion": "4.0.3.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Runtime.Serialization.Primitives/4.3.0": {
         "dependencies": {
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {
             "assemblyVersion": "4.1.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Security.AccessControl/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "System.Security.Principal.Windows": "4.7.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/System.Security.AccessControl.dll": {
@@ -1077,6 +1245,11 @@
           }
         }
       },
+=======
+        }
+      },
+      "System.Security.Cryptography.Cng/4.5.0": {},
+>>>>>>> Stashed changes
       "System.Security.Cryptography.Primitives/4.3.0": {
         "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
@@ -1086,6 +1259,7 @@
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": {
@@ -1110,10 +1284,16 @@
           }
         }
       },
+=======
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.7.0": {},
+>>>>>>> Stashed changes
       "System.Security.Permissions/4.7.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
           "System.Windows.Extensions": "4.7.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netcoreapp3.0/System.Security.Permissions.dll": {
@@ -1144,6 +1324,11 @@
           }
         }
       },
+=======
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+>>>>>>> Stashed changes
       "System.Security.SecureString/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1154,6 +1339,7 @@
           "System.Security.Cryptography.Primitives": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.3/System.Security.SecureString.dll": {
@@ -1168,6 +1354,8 @@
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Text.Encoding/4.3.0": {
@@ -1180,6 +1368,7 @@
       "System.Text.Encoding.CodePages/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
@@ -1194,6 +1383,8 @@
             "assemblyVersion": "4.1.3.0",
             "fileVersion": "4.700.19.56404"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Text.Encoding.Extensions/4.3.0": {
@@ -1207,24 +1398,30 @@
       "System.Text.RegularExpressions/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.6/System.Text.RegularExpressions.dll": {
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Threading/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Threading.dll": {
             "assemblyVersion": "4.0.12.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -1239,17 +1436,21 @@
           "System.Collections": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {
             "assemblyVersion": "4.1.0.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Windows.Extensions/4.7.0": {
         "dependencies": {
           "System.Drawing.Common": "4.7.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
@@ -1264,6 +1465,8 @@
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.700.19.56404"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Xml.ReaderWriter/4.3.0": {
@@ -1283,12 +1486,15 @@
           "System.Text.RegularExpressions": "4.3.0",
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.ReaderWriter.dll": {
             "assemblyVersion": "4.1.0.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Xml.XDocument/4.3.0": {
@@ -1305,12 +1511,15 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {
             "assemblyVersion": "4.0.12.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Xml.XmlDocument/4.3.0": {
@@ -1325,12 +1534,15 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       },
       "System.Xml.XmlSerializer/4.3.0": {
@@ -1352,12 +1564,15 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+<<<<<<< Updated upstream
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {
             "assemblyVersion": "4.0.12.0",
             "fileVersion": "4.6.24705.1"
           }
+=======
+>>>>>>> Stashed changes
         }
       }
     }

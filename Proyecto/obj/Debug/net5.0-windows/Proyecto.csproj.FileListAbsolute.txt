@@ -112,3 +112,4 @@ C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windo
 C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
 C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windows\Proyecto.frmlogin.resources
 C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcita.resources
+C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formciudadano.resources
