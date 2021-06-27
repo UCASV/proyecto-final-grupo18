@@ -45,7 +45,7 @@ Create table Gestor(
 id int identity(1,1) not null primary key,
 nombre varchar(100),
 contrasena varchar(100),
-correo_institucional char (50),
+correo_institucional varchar (50),
 direccion varchar (100),
 id_pregunta int not null
 foreign key (id_pregunta) references Preguntas(id),
