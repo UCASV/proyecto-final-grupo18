@@ -36,5 +36,10 @@ namespace Proyecto
         {
 
         }
+
+        private void btnmodificar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
