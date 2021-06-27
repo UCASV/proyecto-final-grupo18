@@ -8,5 +8,6 @@ namespace Proyecto.Controllers
 {
     class controllerCiudadano
     {
+
     }
 }
