@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Microsoft.EntityFrameworkCore;
+using Proyecto.VacunacionContext;
 
 namespace Proyecto
 {
@@ -88,6 +90,51 @@ namespace Proyecto
                 txtpass.ForeColor = Color.Silver;
                 txtpass.UseSystemPasswordChar = false;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var db = new Vacunacion_DBContext();
+            var users = db.Gestors.ToList();
+
+            var result = users.Where(u => u.CorreoInstitucional == txtuser.Text  && u.Contrasena == txtpass.Text).ToList();
+
+            if (result.Count() == 0)
+            {
+                
+                MessageBox.Show("El usuario no existe", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                
+                //MessageBox.Show(txtuser.Text, "Clinica",
+                //MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                //MessageBox.Show(txtpass.Text, "Clinica",
+                //MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+            }
+            else
+            {
+                MessageBox.Show("Bienvenido", "Clinica",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //Muestro el formulario principal falta esto.
+                Formciudadano frm= new Formciudadano();
+                frm.Show();
+                this.Hide();
+            }
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Formnuevo frm = new Formnuevo();
+            frm.Show();
+            this.Hide();
         }
     }
 }

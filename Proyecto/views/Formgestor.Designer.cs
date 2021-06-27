@@ -44,23 +44,29 @@ namespace Proyecto
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
-            this.dgvcabina = new System.Windows.Forms.DataGridView();
+            this.dgvGestor = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.btnminimizar = new System.Windows.Forms.PictureBox();
             this.btncerrar = new System.Windows.Forms.PictureBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtContra = new System.Windows.Forms.TextBox();
+            this.cmbPrgunta = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtRespuesta = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvcabina)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGestor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.SuspendLayout();
@@ -235,6 +241,7 @@ namespace Proyecto
             this.btnguardar.TabIndex = 33;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = false;
+            this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
             // 
             // btneliminar
             // 
@@ -249,14 +256,14 @@ namespace Proyecto
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = false;
             // 
-            // dgvcabina
+            // dgvGestor
             // 
-            this.dgvcabina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvcabina.Location = new System.Drawing.Point(236, 90);
-            this.dgvcabina.Name = "dgvcabina";
-            this.dgvcabina.RowTemplate.Height = 25;
-            this.dgvcabina.Size = new System.Drawing.Size(497, 273);
-            this.dgvcabina.TabIndex = 31;
+            this.dgvGestor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvGestor.Location = new System.Drawing.Point(236, 90);
+            this.dgvGestor.Name = "dgvGestor";
+            this.dgvGestor.RowTemplate.Height = 25;
+            this.dgvGestor.Size = new System.Drawing.Size(497, 273);
+            this.dgvGestor.TabIndex = 31;
             // 
             // label3
             // 
@@ -277,7 +284,6 @@ namespace Proyecto
             this.btnminimizar.Size = new System.Drawing.Size(29, 28);
             this.btnminimizar.TabIndex = 36;
             this.btnminimizar.TabStop = false;
-            this.btnminimizar.Click += new System.EventHandler(this.btnminimizar_Click);
             // 
             // btncerrar
             // 
@@ -287,14 +293,13 @@ namespace Proyecto
             this.btncerrar.Size = new System.Drawing.Size(29, 28);
             this.btncerrar.TabIndex = 35;
             this.btncerrar.TabStop = false;
-            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
-            // textBox5
+            // txtNombre
             // 
-            this.textBox5.Location = new System.Drawing.Point(771, 114);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(159, 23);
-            this.textBox5.TabIndex = 43;
+            this.txtNombre.Location = new System.Drawing.Point(771, 114);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(159, 23);
+            this.txtNombre.TabIndex = 43;
             // 
             // label6
             // 
@@ -307,41 +312,96 @@ namespace Proyecto
             this.label6.TabIndex = 42;
             this.label6.Text = "Nombre";
             // 
-            // textBox1
+            // txtCorreo
             // 
-            this.textBox1.Location = new System.Drawing.Point(771, 187);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 23);
-            this.textBox1.TabIndex = 45;
+            this.txtCorreo.Location = new System.Drawing.Point(771, 160);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(159, 23);
+            this.txtCorreo.TabIndex = 45;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(771, 167);
+            this.label1.Location = new System.Drawing.Point(771, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 17);
             this.label1.TabIndex = 44;
             this.label1.Text = "Correo";
             // 
-            // textBox2
+            // txtDireccion
             // 
-            this.textBox2.Location = new System.Drawing.Point(771, 263);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 23);
-            this.textBox2.TabIndex = 47;
+            this.txtDireccion.Location = new System.Drawing.Point(771, 222);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(159, 23);
+            this.txtDireccion.TabIndex = 47;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label2.Location = new System.Drawing.Point(771, 243);
+            this.label2.Location = new System.Drawing.Point(771, 202);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 17);
             this.label2.TabIndex = 46;
             this.label2.Text = "Direccion";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label4.Location = new System.Drawing.Point(771, 248);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(74, 17);
+            this.label4.TabIndex = 48;
+            this.label4.Text = "Contrasena";
+            // 
+            // txtContra
+            // 
+            this.txtContra.Location = new System.Drawing.Point(771, 268);
+            this.txtContra.Name = "txtContra";
+            this.txtContra.Size = new System.Drawing.Size(159, 23);
+            this.txtContra.TabIndex = 49;
+            // 
+            // cmbPrgunta
+            // 
+            this.cmbPrgunta.FormattingEnabled = true;
+            this.cmbPrgunta.Location = new System.Drawing.Point(771, 318);
+            this.cmbPrgunta.Name = "cmbPrgunta";
+            this.cmbPrgunta.Size = new System.Drawing.Size(159, 23);
+            this.cmbPrgunta.TabIndex = 50;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label5.Location = new System.Drawing.Point(771, 298);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(66, 17);
+            this.label5.TabIndex = 51;
+            this.label5.Text = "Pregunta?";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label7.Location = new System.Drawing.Point(771, 346);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(68, 17);
+            this.label7.TabIndex = 52;
+            this.label7.Text = "Respuesta";
+            // 
+            // txtRespuesta
+            // 
+            this.txtRespuesta.Location = new System.Drawing.Point(771, 366);
+            this.txtRespuesta.Name = "txtRespuesta";
+            this.txtRespuesta.Size = new System.Drawing.Size(159, 23);
+            this.txtRespuesta.TabIndex = 53;
             // 
             // Formgestor
             // 
@@ -349,30 +409,37 @@ namespace Proyecto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(942, 489);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtRespuesta);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.cmbPrgunta);
+            this.Controls.Add(this.txtContra);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnminimizar);
             this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.btnmodificar);
             this.Controls.Add(this.btnguardar);
             this.Controls.Add(this.btneliminar);
-            this.Controls.Add(this.dgvcabina);
+            this.Controls.Add(this.dgvGestor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formgestor";
             this.Text = "Formgestor";
+            this.Load += new System.EventHandler(this.Formgestor_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvcabina)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGestor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             this.ResumeLayout(false);
@@ -396,15 +463,21 @@ namespace Proyecto
         private System.Windows.Forms.Button btnmodificar;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btneliminar;
-        private System.Windows.Forms.DataGridView dgvcabina;
+        private System.Windows.Forms.DataGridView dgvGestor;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox btnminimizar;
         private System.Windows.Forms.PictureBox btncerrar;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtContra;
+        private System.Windows.Forms.ComboBox cmbPrgunta;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtRespuesta;
     }
 }

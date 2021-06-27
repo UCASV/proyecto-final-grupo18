@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Proyecto.VacunacionContext;
 
 namespace Proyecto
 {
@@ -22,14 +23,19 @@ namespace Proyecto
 
         }
 
-        private void btncerrar_Click(object sender, EventArgs e)
+        private void Formnuevo_Load(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
 
-        private void btnminimizar_Click(object sender, EventArgs e)
+        private void cmbPregunta_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+
+        }
+
+        private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

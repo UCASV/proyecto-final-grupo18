@@ -51,11 +51,11 @@ namespace Proyecto
             this.btneliminar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnmodificar = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.DTPfecha = new System.Windows.Forms.DateTimePicker();
             this.txtLugar = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.DTPhora = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.CBoxDosis = new System.Windows.Forms.ComboBox();
+            this.CboxDosis = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.panel1.SuspendLayout();
@@ -75,7 +75,6 @@ namespace Proyecto
             this.btnminimizar.Size = new System.Drawing.Size(29, 28);
             this.btnminimizar.TabIndex = 9;
             this.btnminimizar.TabStop = false;
-            this.btnminimizar.Click += new System.EventHandler(this.btnminimizar_Click);
             // 
             // btncerrar
             // 
@@ -235,9 +234,9 @@ namespace Proyecto
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Location = new System.Drawing.Point(245, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 27);
+            this.label3.Size = new System.Drawing.Size(122, 27);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Lista de citas";
+            this.label3.Text = "Lista de cita";
             // 
             // dgvcabina
             // 
@@ -266,7 +265,7 @@ namespace Proyecto
             this.txtemail.AutoSize = true;
             this.txtemail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtemail.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.txtemail.Location = new System.Drawing.Point(715, 258);
+            this.txtemail.Location = new System.Drawing.Point(715, 250);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(37, 17);
             this.txtemail.TabIndex = 17;
@@ -277,7 +276,7 @@ namespace Proyecto
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label5.Location = new System.Drawing.Point(715, 340);
+            this.label5.Location = new System.Drawing.Point(715, 308);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 17);
             this.label5.TabIndex = 19;
@@ -302,7 +301,7 @@ namespace Proyecto
             this.btnguardar.FlatAppearance.BorderSize = 0;
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnguardar.Location = new System.Drawing.Point(560, 411);
+            this.btnguardar.Location = new System.Drawing.Point(559, 411);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(115, 44);
             this.btnguardar.TabIndex = 23;
@@ -324,48 +323,48 @@ namespace Proyecto
             this.btnmodificar.UseVisualStyleBackColor = false;
             this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
             // 
-            // dateTimePicker1
+            // DTPfecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(715, 211);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(222, 23);
-            this.dateTimePicker1.TabIndex = 53;
+            this.DTPfecha.Location = new System.Drawing.Point(715, 201);
+            this.DTPfecha.Name = "DTPfecha";
+            this.DTPfecha.Size = new System.Drawing.Size(222, 23);
+            this.DTPfecha.TabIndex = 53;
             // 
             // txtLugar
             // 
             this.txtLugar.BackColor = System.Drawing.Color.White;
             this.txtLugar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtLugar.Location = new System.Drawing.Point(715, 141);
+            this.txtLugar.Location = new System.Drawing.Point(715, 130);
             this.txtLugar.Name = "txtLugar";
             this.txtLugar.Size = new System.Drawing.Size(222, 25);
             this.txtLugar.TabIndex = 54;
             // 
-            // dateTimePicker2
+            // DTPhora
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(715, 287);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(78, 23);
-            this.dateTimePicker2.TabIndex = 55;
+            this.DTPhora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.DTPhora.Location = new System.Drawing.Point(715, 275);
+            this.DTPhora.Name = "DTPhora";
+            this.DTPhora.Size = new System.Drawing.Size(69, 23);
+            this.DTPhora.TabIndex = 55;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label2.Location = new System.Drawing.Point(715, 189);
+            this.label2.Location = new System.Drawing.Point(715, 179);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 17);
             this.label2.TabIndex = 56;
             this.label2.Text = "Fecha";
             // 
-            // CBoxDosis
+            // CboxDosis
             // 
-            this.CBoxDosis.FormattingEnabled = true;
-            this.CBoxDosis.Location = new System.Drawing.Point(715, 369);
-            this.CBoxDosis.Name = "CBoxDosis";
-            this.CBoxDosis.Size = new System.Drawing.Size(202, 23);
-            this.CBoxDosis.TabIndex = 57;
+            this.CboxDosis.FormattingEnabled = true;
+            this.CboxDosis.Location = new System.Drawing.Point(715, 339);
+            this.CboxDosis.Name = "CboxDosis";
+            this.CboxDosis.Size = new System.Drawing.Size(121, 23);
+            this.CboxDosis.TabIndex = 57;
             // 
             // Formcita
             // 
@@ -373,11 +372,11 @@ namespace Proyecto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(949, 494);
-            this.Controls.Add(this.CBoxDosis);
+            this.Controls.Add(this.CboxDosis);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.DTPhora);
             this.Controls.Add(this.txtLugar);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.DTPfecha);
             this.Controls.Add(this.btnmodificar);
             this.Controls.Add(this.btnguardar);
             this.Controls.Add(this.btneliminar);
@@ -392,6 +391,7 @@ namespace Proyecto
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formcita";
             this.Text = "Formcita";
+            this.Load += new System.EventHandler(this.Formcita_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -429,10 +429,10 @@ namespace Proyecto
         private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btnmodificar;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker DTPfecha;
         private System.Windows.Forms.TextBox txtLugar;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker DTPhora;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox CBoxDosis;
+        private System.Windows.Forms.ComboBox CboxDosis;
     }
 }

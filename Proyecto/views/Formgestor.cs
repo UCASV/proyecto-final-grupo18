@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Proyecto.VacunacionContext;//importen el context en sus archivos
+using Proyecto.Controllers;
 
 namespace Proyecto
 {
@@ -32,14 +34,20 @@ namespace Proyecto
 
         }
 
-        private void btncerrar_Click(object sender, EventArgs e)
+        private void btnguardar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            controllerGestor controler = new controllerGestor();
+            controler.insert(txtNombre, txtCorreo, txtDireccion, txtContra , cmbPrgunta, txtRespuesta );
+            controler.read(dgvGestor, cmbPrgunta);
+
+            MessageBox.Show("Usuario insertado correctamente", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void btnminimizar_Click(object sender, EventArgs e)
+        private void Formgestor_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            controllerGestor controler = new controllerGestor();
+            controler.read(dgvGestor, cmbPrgunta);
         }
     }
 }
