@@ -26,5 +26,10 @@ namespace Proyecto
         {
 
         }
+
+        private void Formciudadano_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

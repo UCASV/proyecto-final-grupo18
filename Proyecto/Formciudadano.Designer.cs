@@ -456,6 +456,7 @@ namespace Proyecto
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formciudadano";
             this.Text = "Formciudadano";
+            this.Load += new System.EventHandler(this.Formciudadano_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
