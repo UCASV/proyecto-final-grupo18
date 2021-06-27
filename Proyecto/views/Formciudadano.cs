@@ -115,9 +115,8 @@ namespace Proyecto
                 db.SaveChanges();
 
             }
-          
 
-                    
+                             
         }
     }
 }
