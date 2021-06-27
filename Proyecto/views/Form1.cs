@@ -124,5 +124,17 @@ namespace Proyecto
             }
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Formnuevo frm = new Formnuevo();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
