@@ -44,7 +44,7 @@ namespace Proyecto
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
-            this.dgvcabina = new System.Windows.Forms.DataGridView();
+            this.dgvCiudadanos = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.btnminimizar = new System.Windows.Forms.PictureBox();
             this.btncerrar = new System.Windows.Forms.PictureBox();
@@ -70,7 +70,7 @@ namespace Proyecto
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvcabina)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCiudadanos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.SuspendLayout();
@@ -256,14 +256,14 @@ namespace Proyecto
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = false;
             // 
-            // dgvcabina
+            // dgvCiudadanos
             // 
-            this.dgvcabina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvcabina.Location = new System.Drawing.Point(245, 106);
-            this.dgvcabina.Name = "dgvcabina";
-            this.dgvcabina.RowTemplate.Height = 25;
-            this.dgvcabina.Size = new System.Drawing.Size(497, 273);
-            this.dgvcabina.TabIndex = 26;
+            this.dgvCiudadanos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCiudadanos.Location = new System.Drawing.Point(245, 106);
+            this.dgvCiudadanos.Name = "dgvCiudadanos";
+            this.dgvCiudadanos.RowTemplate.Height = 25;
+            this.dgvCiudadanos.Size = new System.Drawing.Size(497, 273);
+            this.dgvCiudadanos.TabIndex = 26;
             // 
             // label3
             // 
@@ -474,7 +474,7 @@ namespace Proyecto
             this.Controls.Add(this.btnmodificar);
             this.Controls.Add(this.btnguardar);
             this.Controls.Add(this.btneliminar);
-            this.Controls.Add(this.dgvcabina);
+            this.Controls.Add(this.dgvCiudadanos);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -487,7 +487,7 @@ namespace Proyecto
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvcabina)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCiudadanos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             this.ResumeLayout(false);
@@ -511,7 +511,7 @@ namespace Proyecto
         private System.Windows.Forms.Button btnmodificar;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btneliminar;
-        private System.Windows.Forms.DataGridView dgvcabina;
+        private System.Windows.Forms.DataGridView dgvCiudadanos;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox btnminimizar;
         private System.Windows.Forms.PictureBox btncerrar;
