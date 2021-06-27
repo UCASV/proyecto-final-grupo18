@@ -281,6 +281,7 @@ namespace Proyecto
             this.btnminimizar.Size = new System.Drawing.Size(29, 28);
             this.btnminimizar.TabIndex = 31;
             this.btnminimizar.TabStop = false;
+            this.btnminimizar.Click += new System.EventHandler(this.btnminimizar_Click);
             // 
             // btncerrar
             // 
@@ -290,6 +291,7 @@ namespace Proyecto
             this.btncerrar.Size = new System.Drawing.Size(29, 28);
             this.btncerrar.TabIndex = 30;
             this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // label2
             // 

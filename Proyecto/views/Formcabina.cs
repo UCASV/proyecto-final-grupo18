@@ -21,5 +21,20 @@ namespace Proyecto
         {
 
         }
+
+        private void btnguardar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnminimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

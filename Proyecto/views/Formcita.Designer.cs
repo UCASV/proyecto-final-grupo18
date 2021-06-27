@@ -46,15 +46,16 @@ namespace Proyecto
             this.label3 = new System.Windows.Forms.Label();
             this.dgvcabina = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.txtemail = new System.Windows.Forms.Label();
-            this.txttelefono = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btneliminar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnmodificar = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtLugar = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.CBoxDosis = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.panel1.SuspendLayout();
@@ -74,6 +75,7 @@ namespace Proyecto
             this.btnminimizar.Size = new System.Drawing.Size(29, 28);
             this.btnminimizar.TabIndex = 9;
             this.btnminimizar.TabStop = false;
+            this.btnminimizar.Click += new System.EventHandler(this.btnminimizar_Click);
             // 
             // btncerrar
             // 
@@ -83,6 +85,7 @@ namespace Proyecto
             this.btncerrar.Size = new System.Drawing.Size(29, 28);
             this.btncerrar.TabIndex = 8;
             this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // panel1
             // 
@@ -232,9 +235,9 @@ namespace Proyecto
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Location = new System.Drawing.Point(245, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 27);
+            this.label3.Size = new System.Drawing.Size(131, 27);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Lista de cabinas";
+            this.label3.Text = "Lista de citas";
             // 
             // dgvcabina
             // 
@@ -258,14 +261,6 @@ namespace Proyecto
             this.label1.Text = "Lugar";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(715, 287);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(142, 23);
-            this.textBox3.TabIndex = 18;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
             // txtemail
             // 
             this.txtemail.AutoSize = true;
@@ -276,13 +271,6 @@ namespace Proyecto
             this.txtemail.Size = new System.Drawing.Size(37, 17);
             this.txtemail.TabIndex = 17;
             this.txtemail.Text = "Hora";
-            // 
-            // txttelefono
-            // 
-            this.txttelefono.Location = new System.Drawing.Point(715, 360);
-            this.txttelefono.Name = "txttelefono";
-            this.txttelefono.Size = new System.Drawing.Size(142, 23);
-            this.txttelefono.TabIndex = 20;
             // 
             // label5
             // 
@@ -314,7 +302,7 @@ namespace Proyecto
             this.btnguardar.FlatAppearance.BorderSize = 0;
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnguardar.Location = new System.Drawing.Point(560, 420);
+            this.btnguardar.Location = new System.Drawing.Point(560, 411);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(115, 44);
             this.btnguardar.TabIndex = 23;
@@ -343,14 +331,41 @@ namespace Proyecto
             this.dateTimePicker1.Size = new System.Drawing.Size(222, 23);
             this.dateTimePicker1.TabIndex = 53;
             // 
-            // textBox2
+            // txtLugar
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(715, 130);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 39);
-            this.textBox2.TabIndex = 54;
+            this.txtLugar.BackColor = System.Drawing.Color.White;
+            this.txtLugar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtLugar.Location = new System.Drawing.Point(715, 141);
+            this.txtLugar.Name = "txtLugar";
+            this.txtLugar.Size = new System.Drawing.Size(222, 25);
+            this.txtLugar.TabIndex = 54;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker2.Location = new System.Drawing.Point(715, 287);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(78, 23);
+            this.dateTimePicker2.TabIndex = 55;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label2.Location = new System.Drawing.Point(715, 189);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 17);
+            this.label2.TabIndex = 56;
+            this.label2.Text = "Fecha";
+            // 
+            // CBoxDosis
+            // 
+            this.CBoxDosis.FormattingEnabled = true;
+            this.CBoxDosis.Location = new System.Drawing.Point(715, 369);
+            this.CBoxDosis.Name = "CBoxDosis";
+            this.CBoxDosis.Size = new System.Drawing.Size(202, 23);
+            this.CBoxDosis.TabIndex = 57;
             // 
             // Formcita
             // 
@@ -358,14 +373,15 @@ namespace Proyecto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(949, 494);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.CBoxDosis);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.txtLugar);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btnmodificar);
             this.Controls.Add(this.btnguardar);
             this.Controls.Add(this.btneliminar);
-            this.Controls.Add(this.txttelefono);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.txtemail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvcabina);
@@ -408,14 +424,15 @@ namespace Proyecto
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvcabina;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label txtemail;
-        private System.Windows.Forms.TextBox txttelefono;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btnmodificar;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtLugar;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox CBoxDosis;
     }
 }

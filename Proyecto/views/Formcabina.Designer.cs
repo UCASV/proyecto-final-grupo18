@@ -236,6 +236,7 @@ namespace Proyecto
             this.btnguardar.TabIndex = 38;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = false;
+            this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
             // 
             // btneliminar
             // 
@@ -279,6 +280,7 @@ namespace Proyecto
             this.btnminimizar.Size = new System.Drawing.Size(29, 28);
             this.btnminimizar.TabIndex = 41;
             this.btnminimizar.TabStop = false;
+            this.btnminimizar.Click += new System.EventHandler(this.btnminimizar_Click);
             // 
             // btncerrar
             // 
@@ -288,6 +290,7 @@ namespace Proyecto
             this.btncerrar.Size = new System.Drawing.Size(29, 28);
             this.btncerrar.TabIndex = 40;
             this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // textBox1
             // 
