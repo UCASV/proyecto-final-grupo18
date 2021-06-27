@@ -95,13 +95,23 @@ namespace Proyecto
         private void button1_Click(object sender, EventArgs e)
         {
             var db = new Vacunacion_DBContext();
-            var users = db.Gestors.OrderBy(u => u.Id).ToList();
-            var result = users.Where(u => u.CorreoInstitucional.Equals(txtuser.Text) && u.Contrasena.Equals(txtpass.Text)).ToList();
+            var users = db.Gestors.ToList();
 
-            if (result.Count == 0)
+            var result = users.Where(u => u.CorreoInstitucional == txtuser.Text  && u.Contrasena == txtpass.Text).ToList();
+
+            if (result.Count() == 0)
             {
+                
                 MessageBox.Show("El usuario no existe", "Clinica",
                 MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                
+                MessageBox.Show(txtuser.Text, "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                MessageBox.Show(txtpass.Text, "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
             }
             else
             {

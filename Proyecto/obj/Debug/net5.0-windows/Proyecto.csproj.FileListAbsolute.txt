@@ -113,3 +113,7 @@ C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\P
 C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcita.resources
 C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formciudadano.resources
 C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcabina.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formgestor.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formnuevo.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formolvido.resources

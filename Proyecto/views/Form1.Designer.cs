@@ -132,7 +132,7 @@ namespace Proyecto
             this.txtuser.ForeColor = System.Drawing.Color.DarkGray;
             this.txtuser.Location = new System.Drawing.Point(364, 157);
             this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(100, 26);
+            this.txtuser.Size = new System.Drawing.Size(462, 26);
             this.txtuser.TabIndex = 9;
             this.txtuser.Text = "USUARIO";
             this.txtuser.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -147,7 +147,7 @@ namespace Proyecto
             this.txtpass.ForeColor = System.Drawing.Color.DarkGray;
             this.txtpass.Location = new System.Drawing.Point(364, 269);
             this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(131, 26);
+            this.txtpass.Size = new System.Drawing.Size(462, 26);
             this.txtpass.TabIndex = 10;
             this.txtpass.Text = "CONTRASEÑA";
             this.txtpass.Enter += new System.EventHandler(this.txtpass_Enter);

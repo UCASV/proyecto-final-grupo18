@@ -107,7 +107,7 @@ insert into Dosis values (2, 'Segunda dosis')
 
 insert into Preguntas values (1, 'Cual es tu color favorito?')
 
-insert into Gestor values ('Alonso', '1234','dorito@gmail.com', 'La gloria', 1, 'azul')
+insert into Gestor values ('Alonso', '1234', 'dorito@gmail.com', 'La gloria', 1, 'azul')
 
 --insert into Registro values (1, )
 
