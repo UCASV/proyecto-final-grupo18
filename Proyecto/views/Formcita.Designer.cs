@@ -46,15 +46,20 @@ namespace Proyecto
             this.label3 = new System.Windows.Forms.Label();
             this.dgvcabina = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.txtemail = new System.Windows.Forms.Label();
-            this.txttelefono = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btneliminar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnmodificar = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.DTPfecha = new System.Windows.Forms.DateTimePicker();
+            this.txtLugar = new System.Windows.Forms.TextBox();
+            this.DTPhora = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.CboxDosis = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.CboxDUI = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.panel1.SuspendLayout();
@@ -83,6 +88,7 @@ namespace Proyecto
             this.btncerrar.Size = new System.Drawing.Size(29, 28);
             this.btncerrar.TabIndex = 8;
             this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // panel1
             // 
@@ -232,9 +238,9 @@ namespace Proyecto
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Location = new System.Drawing.Point(245, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 27);
+            this.label3.Size = new System.Drawing.Size(122, 27);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Lista de cabinas";
+            this.label3.Text = "Lista de cita";
             // 
             // dgvcabina
             // 
@@ -251,13 +257,14 @@ namespace Proyecto
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(715, 110);
+            this.label1.Location = new System.Drawing.Point(715, 157);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 17);
             this.label1.TabIndex = 13;
             this.label1.Text = "Lugar";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+<<<<<<< HEAD
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(715, 287);
@@ -266,17 +273,20 @@ namespace Proyecto
             this.textBox3.TabIndex = 18;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
+=======
+>>>>>>> FormCita
             // txtemail
             // 
             this.txtemail.AutoSize = true;
             this.txtemail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtemail.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.txtemail.Location = new System.Drawing.Point(715, 258);
+            this.txtemail.Location = new System.Drawing.Point(715, 282);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(37, 17);
             this.txtemail.TabIndex = 17;
             this.txtemail.Text = "Hora";
             // 
+<<<<<<< HEAD
             // txttelefono
             // 
             this.txttelefono.Location = new System.Drawing.Point(715, 360);
@@ -284,12 +294,14 @@ namespace Proyecto
             this.txttelefono.Size = new System.Drawing.Size(201, 23);
             this.txttelefono.TabIndex = 20;
             // 
+=======
+>>>>>>> FormCita
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label5.Location = new System.Drawing.Point(715, 340);
+            this.label5.Location = new System.Drawing.Point(716, 340);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 17);
             this.label5.TabIndex = 19;
@@ -314,7 +326,7 @@ namespace Proyecto
             this.btnguardar.FlatAppearance.BorderSize = 0;
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnguardar.Location = new System.Drawing.Point(560, 420);
+            this.btnguardar.Location = new System.Drawing.Point(559, 411);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(115, 44);
             this.btnguardar.TabIndex = 23;
@@ -336,36 +348,105 @@ namespace Proyecto
             this.btnmodificar.UseVisualStyleBackColor = false;
             this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
             // 
-            // dateTimePicker1
+            // DTPfecha
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(715, 211);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(222, 23);
-            this.dateTimePicker1.TabIndex = 53;
+            this.DTPfecha.Location = new System.Drawing.Point(715, 246);
+            this.DTPfecha.Name = "DTPfecha";
+            this.DTPfecha.Size = new System.Drawing.Size(222, 23);
+            this.DTPfecha.TabIndex = 53;
             // 
-            // textBox2
+            // txtLugar
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(715, 130);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 39);
-            this.textBox2.TabIndex = 54;
+            this.txtLugar.BackColor = System.Drawing.Color.White;
+            this.txtLugar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtLugar.Location = new System.Drawing.Point(715, 177);
+            this.txtLugar.Name = "txtLugar";
+            this.txtLugar.Size = new System.Drawing.Size(222, 25);
+            this.txtLugar.TabIndex = 54;
+            // 
+            // DTPhora
+            // 
+            this.DTPhora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.DTPhora.Location = new System.Drawing.Point(715, 302);
+            this.DTPhora.Name = "DTPhora";
+            this.DTPhora.Size = new System.Drawing.Size(69, 23);
+            this.DTPhora.TabIndex = 55;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label2.Location = new System.Drawing.Point(715, 215);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 17);
+            this.label2.TabIndex = 56;
+            this.label2.Text = "Fecha";
+            // 
+            // CboxDosis
+            // 
+            this.CboxDosis.FormattingEnabled = true;
+            this.CboxDosis.Location = new System.Drawing.Point(715, 360);
+            this.CboxDosis.Name = "CboxDosis";
+            this.CboxDosis.Size = new System.Drawing.Size(121, 23);
+            this.CboxDosis.TabIndex = 57;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label4.Location = new System.Drawing.Point(716, 99);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(20, 17);
+            this.label4.TabIndex = 58;
+            this.label4.Text = "ID";
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(715, 121);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(92, 23);
+            this.txtID.TabIndex = 59;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label6.Location = new System.Drawing.Point(716, 398);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 17);
+            this.label6.TabIndex = 60;
+            this.label6.Text = "DUI";
+            // 
+            // CboxDUI
+            // 
+            this.CboxDUI.FormattingEnabled = true;
+            this.CboxDUI.Location = new System.Drawing.Point(715, 423);
+            this.CboxDUI.Name = "CboxDUI";
+            this.CboxDUI.Size = new System.Drawing.Size(138, 23);
+            this.CboxDUI.TabIndex = 61;
             // 
             // Formcita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(949, 494);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.ClientSize = new System.Drawing.Size(966, 494);
+            this.Controls.Add(this.CboxDUI);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.CboxDosis);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.DTPhora);
+            this.Controls.Add(this.txtLugar);
+            this.Controls.Add(this.DTPfecha);
             this.Controls.Add(this.btnmodificar);
             this.Controls.Add(this.btnguardar);
             this.Controls.Add(this.btneliminar);
-            this.Controls.Add(this.txttelefono);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.txtemail);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvcabina);
@@ -376,6 +457,7 @@ namespace Proyecto
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formcita";
             this.Text = "Formcita";
+            this.Load += new System.EventHandler(this.Formcita_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -408,14 +490,19 @@ namespace Proyecto
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvcabina;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label txtemail;
-        private System.Windows.Forms.TextBox txttelefono;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btnmodificar;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DateTimePicker DTPfecha;
+        private System.Windows.Forms.TextBox txtLugar;
+        private System.Windows.Forms.DateTimePicker DTPhora;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox CboxDosis;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox CboxDUI;
     }
 }

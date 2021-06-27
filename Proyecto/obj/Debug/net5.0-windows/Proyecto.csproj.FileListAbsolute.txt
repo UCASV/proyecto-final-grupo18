@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.exe
 C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.deps.json
 C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.runtimeconfig.json
@@ -172,3 +173,194 @@ C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windo
 C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windows\ref\Proyecto.dll
 C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windows\Proyecto.pdb
 C:\Users\joeln\Desktop\progra\ProyectoVacunacion\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
+=======
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.exe
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.deps.json
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.runtimeconfig.json
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.runtimeconfig.dev.json
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\ref\Proyecto.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.pdb
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Humanizer.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\ref\Proyecto.dll
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.pdb
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.exe
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.deps.json
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.runtimeconfig.json
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.runtimeconfig.dev.json
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\ref\Proyecto.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.pdb
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Humanizer.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.GenerateResource.cache
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.AssemblyInfoInputs.cache
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.AssemblyInfo.cs
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.CopyComplete
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\ref\Proyecto.dll
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.pdb
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.frmlogin.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcita.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formciudadano.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcabina.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formgestor.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formnuevo.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formolvido.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.frmlogin.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcabina.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcita.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formciudadano.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formgestor.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formnuevo.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formolvido.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.exe
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.deps.json
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.runtimeconfig.json
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.runtimeconfig.dev.json
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\ref\Proyecto.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Proyecto.pdb
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Humanizer.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csprojAssemblyReference.cache
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Properties.Resources.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.frmlogin.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcabina.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcita.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formciudadano.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formgestor.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formnuevo.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formolvido.resources
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.GenerateResource.cache
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.AssemblyInfoInputs.cache
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.AssemblyInfo.cs
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.CoreCompileInputs.cache
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.CopyComplete
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\ref\Proyecto.dll
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.pdb
+D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
+>>>>>>> FormCita

@@ -162,6 +162,7 @@ namespace Proyecto
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formolvido";
             this.Text = "Formolvido";
+            this.Load += new System.EventHandler(this.Formolvido_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

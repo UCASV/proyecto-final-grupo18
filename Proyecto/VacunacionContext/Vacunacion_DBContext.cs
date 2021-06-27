@@ -34,7 +34,11 @@ namespace Proyecto.VacunacionContext
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+<<<<<<< HEAD
                 optionsBuilder.UseSqlServer("Server=localhost\\MSSQLSERVER01;Database=master;Trusted_Connection=True;");
+=======
+                optionsBuilder.UseSqlServer("Server=DESKTOP-1UA3FIU\\SQLEXPRESS;Database=Vacunacion_DB;Trusted_Connection=True;");
+>>>>>>> FormCita
             }
         }
 
@@ -129,8 +133,7 @@ namespace Proyecto.VacunacionContext
                     .HasColumnName("fecha");
 
                 entity.Property(e => e.Hora)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
+                    .HasColumnType("date")
                     .HasColumnName("hora");
 
                 entity.Property(e => e.IdDosis).HasColumnName("id_dosis");
