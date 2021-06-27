@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Proyecto.VacunacionContext;
 
 namespace Proyecto
 {
@@ -18,6 +19,21 @@ namespace Proyecto
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Formnuevo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbPregunta_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox12_TextChanged(object sender, EventArgs e)
         {
 
         }

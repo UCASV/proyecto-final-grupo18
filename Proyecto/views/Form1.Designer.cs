@@ -41,6 +41,7 @@ namespace Proyecto
             this.txtuser = new System.Windows.Forms.TextBox();
             this.txtpass = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
@@ -85,13 +86,14 @@ namespace Proyecto
             this.linkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(100)))), ((int)(((byte)(182)))));
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.DimGray;
-            this.linkLabel1.Location = new System.Drawing.Point(530, 443);
+            this.linkLabel1.Location = new System.Drawing.Point(534, 461);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(141, 15);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "¿Olvidaste tu contraseña?";
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.DimGray;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // btncerrar
             // 
@@ -132,7 +134,7 @@ namespace Proyecto
             this.txtuser.ForeColor = System.Drawing.Color.DarkGray;
             this.txtuser.Location = new System.Drawing.Point(364, 157);
             this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(100, 26);
+            this.txtuser.Size = new System.Drawing.Size(462, 26);
             this.txtuser.TabIndex = 9;
             this.txtuser.Text = "USUARIO";
             this.txtuser.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -147,7 +149,7 @@ namespace Proyecto
             this.txtpass.ForeColor = System.Drawing.Color.DarkGray;
             this.txtpass.Location = new System.Drawing.Point(364, 269);
             this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(131, 26);
+            this.txtpass.Size = new System.Drawing.Size(462, 26);
             this.txtpass.TabIndex = 10;
             this.txtpass.Text = "CONTRASEÑA";
             this.txtpass.Enter += new System.EventHandler(this.txtpass_Enter);
@@ -159,12 +161,27 @@ namespace Proyecto
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.button1.Location = new System.Drawing.Point(364, 392);
+            this.button1.Location = new System.Drawing.Point(364, 411);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(477, 35);
             this.button1.TabIndex = 2;
             this.button1.Text = "ACCEDER";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.button2.Location = new System.Drawing.Point(364, 361);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(477, 35);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Crear Usuario";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmlogin
             // 
@@ -173,6 +190,7 @@ namespace Proyecto
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(911, 508);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtuser);
@@ -210,6 +228,7 @@ namespace Proyecto
         private System.Windows.Forms.TextBox txtuser;
         private System.Windows.Forms.TextBox txtpass;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

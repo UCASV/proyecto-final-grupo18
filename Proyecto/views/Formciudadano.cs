@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Proyecto.VacunacionContext;//importen el context en sus archivos
+using Proyecto.Controllers;
+
 
 namespace Proyecto
 {
@@ -24,6 +27,23 @@ namespace Proyecto
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void Formciudadano_Load(object sender, EventArgs e)
+        {
+            controllerCiudadano controler = new controllerCiudadano();
+            controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
+        }
+
+        private void btnguardar_Click(object sender, EventArgs e)
+        {
+            controllerCiudadano controler = new controllerCiudadano();
+            controler.insert(txtDui, txtNombre, txtDireccion, txtEmail, txtTelefono, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
+            controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
+
+            MessageBox.Show("Usuario insertado correctamente", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
     }

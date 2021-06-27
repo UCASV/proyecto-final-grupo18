@@ -45,7 +45,7 @@ Create table Gestor(
 id int identity(1,1) not null primary key,
 nombre varchar(100),
 contrasena varchar(100),
-correo_institucional char (50),
+correo_institucional varchar (50),
 direccion varchar (100),
 id_pregunta int not null
 foreign key (id_pregunta) references Preguntas(id),
@@ -107,7 +107,7 @@ insert into Dosis values (2, 'Segunda dosis')
 
 insert into Preguntas values (1, 'Cual es tu color favorito?')
 
-insert into Gestor values ('Alonso', '1234','dorito@gmail.com', 'La gloria', 1, 'azul')
+insert into Gestor values ('Alonso', '1234', 'dorito@gmail.com', 'La gloria', 1, 'azul')
 
 --insert into Registro values (1, )
 
@@ -151,3 +151,10 @@ INNER JOIN Ciudadano as ciu ON c.DUI_ciudadano = ciu.DUI
 
 
 select c.id 'Id', c.lugar 'Lugar', c.fecha 'Fecha', c.hora 'Hora', c.id_dosis 'Dosis', c.DUI_ciudadano 'DUI ciudadano' from Cita as c
+
+
+SELECT  c.DUI, c.nombre, c.direccion_casa, c.email, c.telefono, e.Enfermedades, em.Empleo, d.dosis
+FROM Ciudadano as c
+INNER JOIN Enfermedades as e ON c.id_enfermedades = e.id
+INNER JOIN Empleo as em ON c.id_empleo = em.id
+INNER JOIN Dosis as d ON c.id_dosis = d.id
