@@ -31,14 +31,17 @@ namespace Proyecto
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtuser = new System.Windows.Forms.TextBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
             this.button1 = new System.Windows.Forms.Button();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtRespuesta = new System.Windows.Forms.TextBox();
+            this.txtNueva = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblQuestion = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -64,22 +67,6 @@ namespace Proyecto
             this.txtuser.TabIndex = 13;
             this.txtuser.Text = "CORREO";
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(35, 183);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(397, 10);
-            this.progressBar1.TabIndex = 12;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(35, 244);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(397, 23);
-            this.comboBox1.TabIndex = 14;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -104,13 +91,6 @@ namespace Proyecto
             this.textBox1.TabIndex = 17;
             this.textBox1.Text = "RESPUESTA";
             // 
-            // progressBar2
-            // 
-            this.progressBar2.Location = new System.Drawing.Point(35, 326);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(397, 10);
-            this.progressBar2.TabIndex = 16;
-            // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
@@ -122,13 +102,6 @@ namespace Proyecto
             this.textBox2.Size = new System.Drawing.Size(225, 26);
             this.textBox2.TabIndex = 19;
             this.textBox2.Text = "NUEVA CONTRASEÑA";
-            // 
-            // progressBar3
-            // 
-            this.progressBar3.Location = new System.Drawing.Point(35, 400);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(397, 10);
-            this.progressBar3.TabIndex = 18;
             // 
             // button1
             // 
@@ -143,25 +116,79 @@ namespace Proyecto
             this.button1.Text = "Recuperar";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // txtCorreo
+            // 
+            this.txtCorreo.Location = new System.Drawing.Point(35, 182);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(397, 23);
+            this.txtCorreo.TabIndex = 21;
+            // 
+            // txtRespuesta
+            // 
+            this.txtRespuesta.Location = new System.Drawing.Point(35, 325);
+            this.txtRespuesta.Name = "txtRespuesta";
+            this.txtRespuesta.Size = new System.Drawing.Size(397, 23);
+            this.txtRespuesta.TabIndex = 22;
+            // 
+            // txtNueva
+            // 
+            this.txtNueva.Location = new System.Drawing.Point(35, 399);
+            this.txtNueva.Name = "txtNueva";
+            this.txtNueva.Size = new System.Drawing.Size(397, 23);
+            this.txtNueva.TabIndex = 23;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.lblQuestion);
+            this.panel1.Location = new System.Drawing.Point(35, 244);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(397, 30);
+            this.panel1.TabIndex = 24;
+            // 
+            // lblQuestion
+            // 
+            this.lblQuestion.Location = new System.Drawing.Point(0, 2);
+            this.lblQuestion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQuestion.Name = "lblQuestion";
+            this.lblQuestion.Size = new System.Drawing.Size(397, 28);
+            this.lblQuestion.TabIndex = 25;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.button2.Location = new System.Drawing.Point(438, 175);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(136, 35);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "Buscar";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Formolvido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(462, 565);
+            this.ClientSize = new System.Drawing.Size(586, 565);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.txtNueva);
+            this.Controls.Add(this.txtRespuesta);
+            this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.progressBar3);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.progressBar2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.txtuser);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formolvido";
             this.Text = "Formolvido";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -171,13 +198,15 @@ namespace Proyecto
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtuser;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ProgressBar progressBar3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtCorreo;
+        private System.Windows.Forms.TextBox txtRespuesta;
+        private System.Windows.Forms.TextBox txtNueva;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblQuestion;
+        private System.Windows.Forms.Button button2;
     }
 }
