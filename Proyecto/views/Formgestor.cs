@@ -94,5 +94,51 @@ namespace Proyecto
             frm.Show();
             this.Hide();
         }
+
+        private void btnmodificar_Click(object sender, EventArgs e)
+        {
+            controllerGestor controler = new controllerGestor();
+            controler.update(txtId, txtNombre, txtCorreo, txtDireccion,txtContra, cmbPrgunta, txtRespuesta);
+            controler.read(dgvGestor, cmbPrgunta);
+
+            MessageBox.Show("Usuario Modificó correctamente", "Clinica",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        private int? getId()
+        {
+            try
+            {
+                int id = int.Parse(dgvGestor.Rows[dgvGestor.CurrentRow.Index].Cells[0].Value.ToString());
+                return id;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Ocurrio un error");
+                return null;
+            }
+        }
+
+        private void dgvGestor_SelectionChanged(object sender, EventArgs e)
+        {
+            txtId.Text = dgvGestor.Rows[dgvGestor.CurrentRow.Index].Cells[0].Value.ToString();
+            txtNombre.Text = dgvGestor.Rows[dgvGestor.CurrentRow.Index].Cells[1].Value.ToString();
+            txtContra.Text = dgvGestor.Rows[dgvGestor.CurrentRow.Index].Cells[2].Value.ToString();
+            txtCorreo.Text = dgvGestor.Rows[dgvGestor.CurrentRow.Index].Cells[3].Value.ToString();
+            txtDireccion.Text = dgvGestor.Rows[dgvGestor.CurrentRow.Index].Cells[4].Value.ToString();
+            cmbPrgunta.SelectedValue = (int)dgvGestor.Rows[dgvGestor.CurrentRow.Index].Cells[5].Value;
+            txtRespuesta.Text = dgvGestor.Rows[dgvGestor.CurrentRow.Index].Cells[6].Value.ToString();
+
+        }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            controllerGestor controler = new controllerGestor();
+            controler.delete(txtId);
+
+            controler.read(dgvGestor, cmbPrgunta);
+
+            MessageBox.Show("Usuario Eliminado correctamente", "Clinica",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

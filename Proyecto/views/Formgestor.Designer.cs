@@ -60,6 +60,7 @@ namespace Proyecto
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtRespuesta = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -233,6 +234,7 @@ namespace Proyecto
             this.btnmodificar.TabIndex = 34;
             this.btnmodificar.Text = "Modificar";
             this.btnmodificar.UseVisualStyleBackColor = false;
+            this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
             // 
             // btnguardar
             // 
@@ -260,6 +262,7 @@ namespace Proyecto
             this.btneliminar.TabIndex = 32;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = false;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // dgvGestor
             // 
@@ -269,6 +272,7 @@ namespace Proyecto
             this.dgvGestor.RowTemplate.Height = 25;
             this.dgvGestor.Size = new System.Drawing.Size(497, 273);
             this.dgvGestor.TabIndex = 31;
+            this.dgvGestor.SelectionChanged += new System.EventHandler(this.dgvGestor_SelectionChanged);
             // 
             // label3
             // 
@@ -410,12 +414,22 @@ namespace Proyecto
             this.txtRespuesta.Size = new System.Drawing.Size(159, 23);
             this.txtRespuesta.TabIndex = 53;
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(685, 61);
+            this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
+            this.txtId.Size = new System.Drawing.Size(48, 23);
+            this.txtId.TabIndex = 55;
+            this.txtId.Visible = false;
+            // 
             // Formgestor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(942, 489);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.txtRespuesta);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
@@ -486,5 +500,6 @@ namespace Proyecto
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtRespuesta;
+        private System.Windows.Forms.TextBox txtId;
     }
 }
