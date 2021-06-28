@@ -57,7 +57,7 @@ namespace Proyecto.Controllers
                 {
                     Id = Convert.ToInt32(txtID.Text),
                     Lugar = txtLugar.Text,
-                    Fecha = DTPfecha.Value.ToString("yyyyMMdd"),
+                    Fecha = DTPfecha.Value.ToString("yyyy/mm/dd"),
                     Hora = DTPhora.Value.ToString("hh"),
                     IdDosis = (int)CboxDosis.SelectedValue,
                     DuiCiudadano = (int)CboxDUI.SelectedIndex

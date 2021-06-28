@@ -345,6 +345,7 @@ namespace Proyecto
             // 
             // DTPhora
             // 
+            this.DTPhora.CustomFormat = "hh";
             this.DTPhora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.DTPhora.Location = new System.Drawing.Point(715, 302);
             this.DTPhora.Name = "DTPhora";

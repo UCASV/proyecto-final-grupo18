@@ -49,6 +49,10 @@ namespace Proyecto
         {
             controllerCita CCita = new controllerCita();
             CCita.read(dgvcabina, CboxDosis, CboxDUI);
+
+            MessageBox.Show("Se ha ingresado datos correctamente", "Clinica",
+                            MessageBoxButtons.OK ,
+                            MessageBoxIcon.Information);
         }
         private void button7_Click(object sender, EventArgs e)
         {
