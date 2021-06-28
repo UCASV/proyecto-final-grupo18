@@ -132,7 +132,7 @@ namespace Proyecto
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Formnuevo frm = new Formnuevo();
+            Formolvido frm = new Formolvido();
             frm.Show();
             this.Hide();
         }

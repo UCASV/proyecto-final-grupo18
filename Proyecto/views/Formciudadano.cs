@@ -46,5 +46,12 @@ namespace Proyecto
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        private void btngestor_Click(object sender, EventArgs e)
+        {
+            Formgestor frm = new Formgestor();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

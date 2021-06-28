@@ -139,6 +139,7 @@ namespace Proyecto
             this.btngestor.TabIndex = 5;
             this.btngestor.Text = "Gestor";
             this.btngestor.UseVisualStyleBackColor = true;
+            this.btngestor.Click += new System.EventHandler(this.btngestor_Click);
             // 
             // pictureBox3
             // 
