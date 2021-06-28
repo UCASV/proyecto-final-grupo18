@@ -59,7 +59,6 @@ namespace Proyecto
             this.CboxDUI = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.panel1.SuspendLayout();
@@ -247,6 +246,7 @@ namespace Proyecto
             this.dgvcabina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvcabina.Location = new System.Drawing.Point(245, 110);
             this.dgvcabina.Name = "dgvcabina";
+            this.dgvcabina.ReadOnly = true;
             this.dgvcabina.RowTemplate.Height = 25;
             this.dgvcabina.Size = new System.Drawing.Size(444, 273);
             this.dgvcabina.TabIndex = 12;
@@ -345,6 +345,7 @@ namespace Proyecto
             // 
             // DTPhora
             // 
+            this.DTPhora.CustomFormat = "hh";
             this.DTPhora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.DTPhora.Location = new System.Drawing.Point(715, 302);
             this.DTPhora.Name = "DTPhora";
@@ -391,21 +392,12 @@ namespace Proyecto
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(716, 125);
+            this.txtID.Location = new System.Drawing.Point(537, 78);
             this.txtID.Name = "txtID";
+            this.txtID.ReadOnly = true;
             this.txtID.Size = new System.Drawing.Size(103, 23);
             this.txtID.TabIndex = 60;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label6.Location = new System.Drawing.Point(716, 99);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(20, 17);
-            this.label6.TabIndex = 61;
-            this.label6.Text = "ID";
+            this.txtID.Visible = false;
             // 
             // Formcita
             // 
@@ -413,7 +405,6 @@ namespace Proyecto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(949, 494);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.CboxDUI);
@@ -482,6 +473,5 @@ namespace Proyecto
         private System.Windows.Forms.ComboBox CboxDUI;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.Label label6;
     }
 }

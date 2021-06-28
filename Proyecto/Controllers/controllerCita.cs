@@ -47,7 +47,7 @@ namespace Proyecto.Controllers
 
             CboxDUI.DataSource = listaDUI;
             CboxDUI.ValueMember = "DUI";
-            CboxDUI.DataSource = "DUI";
+            CboxDUI.DisplayMember = "DUI";
         }
         public void insert(TextBox txtID, TextBox txtLugar, DateTimePicker DTPfecha, DateTimePicker DTPhora, ComboBox CboxDosis, ComboBox CboxDUI)
         {
@@ -57,8 +57,8 @@ namespace Proyecto.Controllers
                 {
                     Id = Convert.ToInt32(txtID.Text),
                     Lugar = txtLugar.Text,
-                    Fecha = DTPfecha.Value,
-                    Hora = DTPhora.Value,
+                    Fecha = DTPfecha.Value.ToString("yyyy/mm/dd"),
+                    Hora = DTPhora.Value.ToString("hh"),
                     IdDosis = (int)CboxDosis.SelectedValue,
                     DuiCiudadano = (int)CboxDUI.SelectedIndex
                     
