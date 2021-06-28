@@ -1,5 +1,4 @@
-# proyecto-final-grupo18
-proyecto-final-grupo18 created by GitHub Classroom
+### Sistema de Vacunacion
 
 ## Parte 1: Aspectos Tecnicos
 
