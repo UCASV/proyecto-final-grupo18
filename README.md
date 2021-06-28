@@ -14,9 +14,9 @@ proyecto-final-grupo18 created by GitHub Classroom
 4- Live Charts, el cual fue utilizado para la implementacion
    de graficas 
    
-**El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control.
+** El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control.
 
-**tambien utilizamos el ORM que nos brinda Entity Framework core
+** tambien utilizamos el ORM que nos brinda Entity Framework core
   
 ## Parte 2: Instalación
 
