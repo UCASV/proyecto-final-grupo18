@@ -91,7 +91,18 @@ namespace Proyecto
             comboBoxEmpleo.SelectedValue = (int) dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[6].Value;
             comboBoxDosis.SelectedValue = (int) dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[7].Value;            
 
-        }        
-                
+        }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            controllerCiudadano controler = new controllerCiudadano();
+            controler.delete(txtId);
+
+            controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
+
+            MessageBox.Show("Usuario insertado correctamente", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
     }
 }

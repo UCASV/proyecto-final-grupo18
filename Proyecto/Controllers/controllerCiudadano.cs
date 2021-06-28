@@ -120,6 +120,20 @@ namespace Proyecto.Controllers
 
         } 
 
+        public void delete(TextBox txtId)
+        {
+            int id = int.Parse(txtId.Text);
+
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Ciudadanos.Single(i=> i.Dui == id);
+
+                db.Remove(std);
+                db.SaveChanges();
+            }
+
+        }
+
 
     }
 }
