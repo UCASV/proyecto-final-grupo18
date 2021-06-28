@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+=======
+using System.Data;
+>>>>>>> FormCita
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;

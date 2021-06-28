@@ -21,5 +21,10 @@ namespace Proyecto
         {
 
         }
+
+        private void Formcabina_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

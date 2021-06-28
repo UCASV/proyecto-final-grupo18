@@ -26,5 +26,10 @@ namespace Proyecto
         {
 
         }
+
+        private void Formolvido_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

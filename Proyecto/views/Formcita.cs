@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Proyecto.Controllers;
+using Proyecto.VacunacionContext;
 
 namespace Proyecto
 {
@@ -22,11 +24,7 @@ namespace Proyecto
 
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -40,6 +38,23 @@ namespace Proyecto
         private void btnmodificar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btncerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Formcita_Load(object sender, EventArgs e)
+        {
+            controllerCita CCita = new controllerCita();
+            CCita.read(dgvcabina, CboxDosis, CboxDUI );
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            controllerCita CCita = new controllerCita();
+            CCita.insert(txtID, txtLugar, DTPfecha, DTPhora, CboxDosis, CboxDUI);
+            CCita.read(dgvcabina, CboxDosis, CboxDUI);
         }
     }
 }
