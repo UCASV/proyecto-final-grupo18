@@ -99,5 +99,27 @@ namespace Proyecto.Controllers
             }
            
         }
+
+        public void update(TextBox txtId, TextBox txtDui, TextBox txtNombre, TextBox txtDireccion, TextBox txtEmail, TextBox txtTelefono, ComboBox comboBoxEnefermedades, ComboBox comboBoxEmpleo, ComboBox comboBoxDosis)
+        {
+            int id = int.Parse(txtId.Text);
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Ciudadanos.First(i=> i.Dui == id);
+                std.Nombre = txtNombre.Text;
+                std.DireccionCasa = txtDireccion.Text;
+                std.Email = txtEmail.Text;
+                std.Telefono = txtTelefono.Text;
+                std.IdEnfermedades = (int) comboBoxEnefermedades.SelectedValue;
+                std.IdEmpleo = (int) comboBoxEmpleo.SelectedValue;
+                std.IdDosis = (int) comboBoxDosis.SelectedValue;
+
+                db.SaveChanges();
+                
+            }
+
+        } 
+
+
     }
 }

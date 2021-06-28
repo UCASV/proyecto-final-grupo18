@@ -64,6 +64,7 @@ namespace Proyecto
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.comboBoxDosis = new System.Windows.Forms.ComboBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -229,6 +230,7 @@ namespace Proyecto
             this.btnmodificar.TabIndex = 29;
             this.btnmodificar.Text = "Modificar";
             this.btnmodificar.UseVisualStyleBackColor = false;
+            this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
             // 
             // btnguardar
             // 
@@ -262,9 +264,11 @@ namespace Proyecto
             this.dgvCiudadanos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCiudadanos.Location = new System.Drawing.Point(245, 106);
             this.dgvCiudadanos.Name = "dgvCiudadanos";
+            this.dgvCiudadanos.ReadOnly = true;
             this.dgvCiudadanos.RowTemplate.Height = 25;
             this.dgvCiudadanos.Size = new System.Drawing.Size(497, 273);
             this.dgvCiudadanos.TabIndex = 26;
+            this.dgvCiudadanos.SelectionChanged += new System.EventHandler(this.dgvCiudadanos_SelectionChanged);
             // 
             // label3
             // 
@@ -448,12 +452,22 @@ namespace Proyecto
             this.comboBoxDosis.Size = new System.Drawing.Size(159, 23);
             this.comboBoxDosis.TabIndex = 49;
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(656, 39);
+            this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
+            this.txtId.Size = new System.Drawing.Size(48, 23);
+            this.txtId.TabIndex = 50;
+            this.txtId.Visible = false;
+            // 
             // Formciudadano
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(945, 505);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.comboBoxDosis);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtDireccion);
@@ -532,5 +546,6 @@ namespace Proyecto
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox comboBoxDosis;
+        private System.Windows.Forms.TextBox txtId;
     }
 }
