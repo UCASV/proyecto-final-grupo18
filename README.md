@@ -16,14 +16,13 @@ proyecto-final-grupo18 created by GitHub Classroom
   
 ## Parte 2: Instalación
 
-- En primera instancia, descomprime el archivo .zip
-  Veras que te dejo un archivo .exe de xxx mb, 
-  dele click y comenzará la instalacion y una vez 
-  instalado podrá utilizar nuestro programa
+- En primera instancia, descomprime el archivo .zip, veras que te dejo un archivo .exe de xxx mb, dele click y comenzará la instalacion y una vez instalado podrá utilizar nuestro programa
   
-- Se utilizo Entity Framework Core, en su version 5.0.7
-- Se debe utilizar una base de datos existente para poder 
-  utilizarse correctamente.
+- Se utilizo Entity Framework Core, en su version 5.0.7, para la realizacion y conexion a la base de datos.
+- Se debe utilizar una base de datos existente para poder utilizarse correctamente, por lo cual se le brinda un banco de datos. 
+- Como Gestor de Base de datos se utilizo Microsoft SQL Server
+
+## Parte 3: Utilizacion del programa
   
 
 
