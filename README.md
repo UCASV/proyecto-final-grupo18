@@ -10,10 +10,7 @@
 
 3- Github
 
-4- Live Charts, el cual fue utilizado para la implementacion
-   de graficas 
-   
-**El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control.  
+   El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control. 
 
 tambien utilizamos el ORM que se nos brindó durante todo el curso: Entity Framework Core, en su versión 5.0.7, donde agarramos
 - Microsoft.EntityFrameworkCore
