@@ -363,6 +363,7 @@ namespace Proyecto
             // 
             this.txtContra.Location = new System.Drawing.Point(771, 268);
             this.txtContra.Name = "txtContra";
+            this.txtContra.PasswordChar = '*';
             this.txtContra.Size = new System.Drawing.Size(159, 23);
             this.txtContra.TabIndex = 49;
             // 
