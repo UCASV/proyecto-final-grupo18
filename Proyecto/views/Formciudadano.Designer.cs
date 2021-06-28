@@ -258,6 +258,7 @@ namespace Proyecto
             this.btneliminar.TabIndex = 27;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = false;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // dgvCiudadanos
             // 
