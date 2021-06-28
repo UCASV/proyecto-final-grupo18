@@ -17,7 +17,7 @@ namespace Proyecto
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmlogin());
+            Application.Run(new Formcita());
         }
     }
 }

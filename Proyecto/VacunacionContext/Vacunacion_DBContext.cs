@@ -34,7 +34,7 @@ namespace Proyecto.VacunacionContext
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("server=DESKTOP-DL0ENLK; database=Vacunacion_DB; integrated security = true");
+                optionsBuilder.UseSqlServer("server=DESKTOP-1UA3FIU\\SQLEXPRESS; database=Vacunacion_DB; integrated security=true");
             }
         }
 
@@ -125,7 +125,8 @@ namespace Proyecto.VacunacionContext
                 entity.Property(e => e.DuiCiudadano).HasColumnName("DUI_ciudadano");
 
                 entity.Property(e => e.Fecha)
-                    .HasColumnType("date")
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
                     .HasColumnName("fecha");
 
                 entity.Property(e => e.Hora)
