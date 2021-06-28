@@ -1,6 +1,6 @@
-### Sistema de Vacunacion
+## Sistema de Vacunacion
 
-## Parte 1: Aspectos Tecnicos
+### Parte 1: Aspectos Tecnicos
 
 - Para la realizacion de este proyecto se ha utilizado :
 
