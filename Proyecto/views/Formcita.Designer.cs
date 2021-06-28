@@ -56,10 +56,10 @@ namespace Proyecto
             this.DTPhora = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.CboxDosis = new System.Windows.Forms.ComboBox();
+            this.CboxDUI = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.CboxDUI = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.panel1.SuspendLayout();
@@ -264,38 +264,17 @@ namespace Proyecto
             this.label1.Text = "Lugar";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-<<<<<<< HEAD
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(715, 287);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(201, 23);
-            this.textBox3.TabIndex = 18;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-=======
->>>>>>> FormCita
             // txtemail
             // 
             this.txtemail.AutoSize = true;
             this.txtemail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtemail.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.txtemail.Location = new System.Drawing.Point(715, 282);
+            this.txtemail.Location = new System.Drawing.Point(715, 275);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(37, 17);
             this.txtemail.TabIndex = 17;
             this.txtemail.Text = "Hora";
             // 
-<<<<<<< HEAD
-            // txttelefono
-            // 
-            this.txttelefono.Location = new System.Drawing.Point(715, 360);
-            this.txttelefono.Name = "txttelefono";
-            this.txttelefono.Size = new System.Drawing.Size(201, 23);
-            this.txttelefono.TabIndex = 20;
-            // 
-=======
->>>>>>> FormCita
             // label5
             // 
             this.label5.AutoSize = true;
@@ -350,7 +329,7 @@ namespace Proyecto
             // 
             // DTPfecha
             // 
-            this.DTPfecha.Location = new System.Drawing.Point(715, 246);
+            this.DTPfecha.Location = new System.Drawing.Point(715, 249);
             this.DTPfecha.Name = "DTPfecha";
             this.DTPfecha.Size = new System.Drawing.Size(222, 23);
             this.DTPfecha.TabIndex = 53;
@@ -359,7 +338,7 @@ namespace Proyecto
             // 
             this.txtLugar.BackColor = System.Drawing.Color.White;
             this.txtLugar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtLugar.Location = new System.Drawing.Point(715, 177);
+            this.txtLugar.Location = new System.Drawing.Point(715, 187);
             this.txtLugar.Name = "txtLugar";
             this.txtLugar.Size = new System.Drawing.Size(222, 25);
             this.txtLugar.TabIndex = 54;
@@ -386,58 +365,58 @@ namespace Proyecto
             // CboxDosis
             // 
             this.CboxDosis.FormattingEnabled = true;
-            this.CboxDosis.Location = new System.Drawing.Point(715, 360);
+            this.CboxDosis.Location = new System.Drawing.Point(716, 360);
             this.CboxDosis.Name = "CboxDosis";
             this.CboxDosis.Size = new System.Drawing.Size(121, 23);
             this.CboxDosis.TabIndex = 57;
+            // 
+            // CboxDUI
+            // 
+            this.CboxDUI.FormattingEnabled = true;
+            this.CboxDUI.Location = new System.Drawing.Point(715, 411);
+            this.CboxDUI.Name = "CboxDUI";
+            this.CboxDUI.Size = new System.Drawing.Size(121, 23);
+            this.CboxDUI.TabIndex = 58;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label4.Location = new System.Drawing.Point(716, 99);
+            this.label4.Location = new System.Drawing.Point(716, 391);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 17);
-            this.label4.TabIndex = 58;
-            this.label4.Text = "ID";
+            this.label4.Size = new System.Drawing.Size(29, 17);
+            this.label4.TabIndex = 59;
+            this.label4.Text = "DUI";
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(715, 121);
+            this.txtID.Location = new System.Drawing.Point(716, 125);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(92, 23);
-            this.txtID.TabIndex = 59;
+            this.txtID.Size = new System.Drawing.Size(103, 23);
+            this.txtID.TabIndex = 60;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label6.Location = new System.Drawing.Point(716, 398);
+            this.label6.Location = new System.Drawing.Point(716, 99);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 17);
-            this.label6.TabIndex = 60;
-            this.label6.Text = "DUI";
-            // 
-            // CboxDUI
-            // 
-            this.CboxDUI.FormattingEnabled = true;
-            this.CboxDUI.Location = new System.Drawing.Point(715, 423);
-            this.CboxDUI.Name = "CboxDUI";
-            this.CboxDUI.Size = new System.Drawing.Size(138, 23);
-            this.CboxDUI.TabIndex = 61;
+            this.label6.Size = new System.Drawing.Size(20, 17);
+            this.label6.TabIndex = 61;
+            this.label6.Text = "ID";
             // 
             // Formcita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(966, 494);
-            this.Controls.Add(this.CboxDUI);
+            this.ClientSize = new System.Drawing.Size(949, 494);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.CboxDUI);
             this.Controls.Add(this.CboxDosis);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DTPhora);
@@ -500,9 +479,9 @@ namespace Proyecto
         private System.Windows.Forms.DateTimePicker DTPhora;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox CboxDosis;
+        private System.Windows.Forms.ComboBox CboxDUI;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox CboxDUI;
     }
 }
