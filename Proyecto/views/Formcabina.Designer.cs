@@ -56,6 +56,7 @@ namespace Proyecto
             this.label4 = new System.Windows.Forms.Label();
             this.cbgestor = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -224,6 +225,7 @@ namespace Proyecto
             this.btnmodificar.TabIndex = 39;
             this.btnmodificar.Text = "Modificar";
             this.btnmodificar.UseVisualStyleBackColor = false;
+            this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
             // 
             // btnguardar
             // 
@@ -262,6 +264,7 @@ namespace Proyecto
             this.dgvcabina.Size = new System.Drawing.Size(380, 273);
             this.dgvcabina.TabIndex = 36;
             this.dgvcabina.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvcabina_CellContentClick);
+            this.dgvcabina.SelectionChanged += new System.EventHandler(this.dgvcabina_SelectionChanged_1);
             // 
             // label3
             // 
@@ -368,12 +371,22 @@ namespace Proyecto
             this.label5.TabIndex = 53;
             this.label5.Text = "Gestor";
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(578, 50);
+            this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
+            this.txtId.Size = new System.Drawing.Size(48, 23);
+            this.txtId.TabIndex = 54;
+            this.txtId.Visible = false;
+            // 
             // Formcabina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(942, 474);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cbgestor);
             this.Controls.Add(this.txttelefono);
@@ -436,5 +449,6 @@ namespace Proyecto
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cbgestor;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtId;
     }
 }

@@ -50,5 +50,39 @@ namespace Proyecto
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnmodificar_Click(object sender, EventArgs e)
+        {
+            controllerCabina controler = new controllerCabina();
+            controler.update(txtId, txtubicacion, cbgestor, txtcorreo, txttelefono);
+            controler.read(dgvcabina, cbgestor);
+
+            MessageBox.Show("Usuario Modificó correctamente", "Clinica",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private int? getId()
+        {
+            try
+            {
+                int id = int.Parse(dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[0].Value.ToString());
+                return id;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Ocurrio un error");
+                return null;
+            }
+        }
+
+        private void dgvcabina_SelectionChanged_1(object sender, EventArgs e)
+        {
+
+            txtId.Text = dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[0].Value.ToString();
+            txtubicacion.Text = dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[1].Value.ToString();
+            cbgestor.SelectedValue = (int)dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[2].Value;
+            txtcorreo.Text = dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[3].Value.ToString();
+            txttelefono.Text = dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[4].Value.ToString();
+        }
     }
 }

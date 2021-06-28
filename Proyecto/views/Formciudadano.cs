@@ -61,7 +61,7 @@ namespace Proyecto
            controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
 
             MessageBox.Show("Usuario Modificó correctamente", "Clinica",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private int ? getId()
