@@ -238,9 +238,9 @@ namespace Proyecto
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Location = new System.Drawing.Point(245, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 27);
+            this.label3.Size = new System.Drawing.Size(131, 27);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Lista de cita";
+            this.label3.Text = "Lista de citas";
             // 
             // dgvcabina
             // 
