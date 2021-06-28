@@ -31,7 +31,7 @@ namespace Proyecto
         }
 
         private void Formciudadano_Load(object sender, EventArgs e)
-        {
+        {            
             controllerCiudadano controler = new controllerCiudadano();
             controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
         }
@@ -53,5 +53,45 @@ namespace Proyecto
             frm.Show();
             this.Hide();
         }
+
+        private void btnmodificar_Click(object sender, EventArgs e)
+        {           
+           controllerCiudadano controler = new controllerCiudadano();
+           controler.update(txtId, txtDui, txtNombre, txtDireccion, txtEmail, txtTelefono, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);  
+           controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
+
+            MessageBox.Show("Usuario Modificó correctamente", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private int ? getId()
+        {
+            try
+            {
+                int id = int.Parse(dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[0].Value.ToString());
+                return id;                
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show("Ocurrio un error");
+                return null;
+            }
+        }
+
+        private void dgvCiudadanos_SelectionChanged(object sender, EventArgs e)
+        {
+            //los cell[numero] tienen que ir en orden con su respectivo TextBox
+
+            txtId.Text = dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[0].Value.ToString();
+            txtNombre.Text = dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[1].Value.ToString();
+            txtDireccion.Text = dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[2].Value.ToString();
+            txtEmail.Text = dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[3].Value.ToString();
+            txtTelefono.Text = dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[4].Value.ToString();
+            comboBoxEnefermedades.SelectedValue = (int) dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[5].Value;
+            comboBoxEmpleo.SelectedValue = (int) dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[6].Value;
+            comboBoxDosis.SelectedValue = (int) dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[7].Value;            
+
+        }        
+                
     }
 }
