@@ -60,5 +60,45 @@ namespace Proyecto
             CCita.insert(txtID, txtLugar, DTPfecha, DTPhora, CboxDosis, CboxDUI);
             CCita.read(dgvcabina, CboxDosis, CboxDUI);
         }
+
+        private void btncita_Click(object sender, EventArgs e)
+        {
+            Formcita frm = new Formcita();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnciudadano_Click(object sender, EventArgs e)
+        {
+            Formciudadano frm = new Formciudadano();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btncabina_Click(object sender, EventArgs e)
+        {
+            Formcabina frm = new Formcabina();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btngestor_Click(object sender, EventArgs e)
+        {
+            Formgestor frm = new Formgestor();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Formgestor frm = new Formgestor();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnminimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

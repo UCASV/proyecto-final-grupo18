@@ -243,7 +243,6 @@ D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final
 D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\ref\Proyecto.dll
 D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.pdb
 D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
-C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.AssemblyReference.cache
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Properties.Resources.resources
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.frmlogin.resources
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcabina.resources
@@ -306,3 +305,4 @@ C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-win
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.CopyComplete
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.views.Formmenu.resources

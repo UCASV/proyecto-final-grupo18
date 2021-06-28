@@ -84,5 +84,51 @@ namespace Proyecto
             txtcorreo.Text = dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[3].Value.ToString();
             txttelefono.Text = dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[4].Value.ToString();
         }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            controllerCabina controler = new controllerCabina();
+            controler.delete(txtId);
+
+            controler.read(dgvcabina, cbgestor);
+
+            MessageBox.Show("Usuario insertado correctamente", "Clinica",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btncita_Click(object sender, EventArgs e)
+        {
+            Formcita frm = new Formcita();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnciudadano_Click(object sender, EventArgs e)
+        {
+            Formciudadano frm = new Formciudadano();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btncabina_Click(object sender, EventArgs e)
+        {
+            Formcabina frm = new Formcabina();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btngestor_Click(object sender, EventArgs e)
+        {
+            Formgestor frm = new Formgestor();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Formgestor frm = new Formgestor();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

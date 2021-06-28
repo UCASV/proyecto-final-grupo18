@@ -104,6 +104,7 @@ namespace Proyecto
             this.btnciudadano.TabIndex = 19;
             this.btnciudadano.Text = "Ciudadano";
             this.btnciudadano.UseVisualStyleBackColor = true;
+            this.btnciudadano.Click += new System.EventHandler(this.btnciudadano_Click);
             // 
             // pictureBox2
             // 
@@ -130,6 +131,7 @@ namespace Proyecto
             this.btngestor.TabIndex = 15;
             this.btngestor.Text = "Gestor";
             this.btngestor.UseVisualStyleBackColor = true;
+            this.btngestor.Click += new System.EventHandler(this.btngestor_Click);
             // 
             // btnsalir
             // 
@@ -143,6 +145,7 @@ namespace Proyecto
             this.btnsalir.TabIndex = 10;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // btncabina
             // 
@@ -159,6 +162,7 @@ namespace Proyecto
             this.btncabina.TabIndex = 17;
             this.btncabina.Text = "Cabina";
             this.btncabina.UseVisualStyleBackColor = true;
+            this.btncabina.Click += new System.EventHandler(this.btncabina_Click);
             // 
             // pictureBox1
             // 
@@ -185,6 +189,7 @@ namespace Proyecto
             this.btncita.TabIndex = 13;
             this.btncita.Text = "Citas";
             this.btncita.UseVisualStyleBackColor = true;
+            this.btncita.Click += new System.EventHandler(this.btncita_Click_1);
             // 
             // pictureBox3
             // 
@@ -284,6 +289,7 @@ namespace Proyecto
             this.btnminimizar.Size = new System.Drawing.Size(29, 28);
             this.btnminimizar.TabIndex = 36;
             this.btnminimizar.TabStop = false;
+            this.btnminimizar.Click += new System.EventHandler(this.btnminimizar_Click);
             // 
             // btncerrar
             // 
@@ -293,6 +299,7 @@ namespace Proyecto
             this.btncerrar.Size = new System.Drawing.Size(29, 28);
             this.btncerrar.TabIndex = 35;
             this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // txtNombre
             // 

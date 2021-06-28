@@ -71,7 +71,7 @@ namespace Proyecto
                 int id = int.Parse(dgvCiudadanos.Rows[dgvCiudadanos.CurrentRow.Index].Cells[0].Value.ToString());
                 return id;                
             }
-            catch(Exception e)
+            catch(Exception )
             {
                 MessageBox.Show("Ocurrio un error");
                 return null;
@@ -103,6 +103,44 @@ namespace Proyecto
             MessageBox.Show("Usuario insertado correctamente", "Clinica",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+        }
+
+        private void btncita_Click(object sender, EventArgs e)
+        {
+            Formcita frm = new Formcita();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnciudadano_Click(object sender, EventArgs e)
+        {
+            Formciudadano frm = new Formciudadano();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btncabina_Click(object sender, EventArgs e)
+        {
+            Formcabina frm = new Formcabina();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Formgestor frm = new Formgestor();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btncerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnminimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

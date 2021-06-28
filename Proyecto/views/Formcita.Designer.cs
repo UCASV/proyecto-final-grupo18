@@ -78,6 +78,7 @@ namespace Proyecto
             this.btnminimizar.Size = new System.Drawing.Size(29, 28);
             this.btnminimizar.TabIndex = 9;
             this.btnminimizar.TabStop = false;
+            this.btnminimizar.Click += new System.EventHandler(this.btnminimizar_Click);
             // 
             // btncerrar
             // 
@@ -122,6 +123,7 @@ namespace Proyecto
             this.btnciudadano.TabIndex = 9;
             this.btnciudadano.Text = "Ciudadano";
             this.btnciudadano.UseVisualStyleBackColor = true;
+            this.btnciudadano.Click += new System.EventHandler(this.btnciudadano_Click);
             // 
             // pictureBox5
             // 
@@ -147,6 +149,7 @@ namespace Proyecto
             this.btncabina.TabIndex = 7;
             this.btncabina.Text = "Cabina";
             this.btncabina.UseVisualStyleBackColor = true;
+            this.btncabina.Click += new System.EventHandler(this.btncabina_Click);
             // 
             // pictureBox4
             // 
@@ -172,6 +175,7 @@ namespace Proyecto
             this.btngestor.TabIndex = 5;
             this.btngestor.Text = "Gestor";
             this.btngestor.UseVisualStyleBackColor = true;
+            this.btngestor.Click += new System.EventHandler(this.btngestor_Click);
             // 
             // pictureBox3
             // 
@@ -197,6 +201,7 @@ namespace Proyecto
             this.btncita.TabIndex = 3;
             this.btncita.Text = "Citas";
             this.btncita.UseVisualStyleBackColor = true;
+            this.btncita.Click += new System.EventHandler(this.btncita_Click);
             // 
             // pictureBox2
             // 
@@ -229,6 +234,7 @@ namespace Proyecto
             this.btnsalir.TabIndex = 0;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // label3
             // 

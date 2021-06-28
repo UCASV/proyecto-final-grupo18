@@ -7,47 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Proyecto.VacunacionContext;//importen el context en sus archivos
-using Proyecto.Controllers;
 
-namespace Proyecto
+namespace Proyecto.views
 {
-    public partial class Formgestor : Form
+    public partial class Formmenu : Form
     {
-        public Formgestor()
+        public Formmenu()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void Formprincipal_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btncita_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnguardar_Click(object sender, EventArgs e)
-        {
-            controllerGestor controler = new controllerGestor();
-            controler.insert(txtNombre, txtCorreo, txtDireccion, txtContra , cmbPrgunta, txtRespuesta );
-            controler.read(dgvGestor, cmbPrgunta);
-
-            MessageBox.Show("Usuario insertado correctamente", "Clinica",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void Formgestor_Load(object sender, EventArgs e)
-        {
-            controllerGestor controler = new controllerGestor();
-            controler.read(dgvGestor, cmbPrgunta);
+            
         }
 
         private void btncerrar_Click(object sender, EventArgs e)
@@ -60,7 +32,7 @@ namespace Proyecto
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void btncita_Click_1(object sender, EventArgs e)
+        private void btncita_Click(object sender, EventArgs e)
         {
             Formcita frm = new Formcita();
             frm.Show();

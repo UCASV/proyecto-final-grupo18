@@ -74,5 +74,20 @@ namespace Proyecto.Controllers
                 db.SaveChanges();
             }
         }
+
+        public void delete(TextBox txtId)
+        {
+            int id = int.Parse(txtId.Text);
+
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Cabinas.Single(i => i.Id == id);
+
+                db.Remove(std);
+                db.SaveChanges();
+            }
+
+        }
+
     }
 }
