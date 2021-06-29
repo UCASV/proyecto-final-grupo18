@@ -58,13 +58,41 @@ namespace Proyecto.Controllers
                     Direccion = txtDireccion.Text,
                     Contrasena = txtContra.Text,
                     IdPregunta = (int)cmbPregunta.SelectedValue,
-
-
+                    Respuesta = txtRespuesta.Text
                 };
 
                 db.Gestors.Add(std);
                 db.SaveChanges();
 
+            }
+
+        }
+        public void update(TextBox txtId, TextBox txtNombre,  TextBox txtCorreo, TextBox txtDireccion,TextBox txtContra, ComboBox cmbPregunta, TextBox txtRespuesta)
+        {
+            int id = int.Parse(txtId.Text);
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Gestors.First(i => i.Id == id);
+                std.Nombre = txtNombre.Text;
+                std.Contrasena = txtContra.Text;
+                std.CorreoInstitucional = txtCorreo.Text;
+                std.Direccion = txtDireccion.Text;
+                std.IdPregunta = (int)cmbPregunta.SelectedValue;
+                std.Respuesta = txtRespuesta.Text;
+
+                db.SaveChanges();
+            }
+        }
+        public void delete(TextBox txtId)
+        {
+            int id = int.Parse(txtId.Text);
+
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Gestors.Single(i => i.Id == id);
+
+                db.Remove(std);
+                db.SaveChanges();
             }
 
         }

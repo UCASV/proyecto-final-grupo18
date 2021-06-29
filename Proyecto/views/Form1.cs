@@ -118,7 +118,7 @@ namespace Proyecto
                 MessageBox.Show("Bienvenido", "Clinica",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 //Muestro el formulario principal falta esto.
-                Formciudadano frm= new Formciudadano();
+                Formciudadano frm = new Formciudadano();
                 frm.Show();
                 this.Hide();
             }

@@ -60,6 +60,7 @@ namespace Proyecto
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtRespuesta = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -104,6 +105,7 @@ namespace Proyecto
             this.btnciudadano.TabIndex = 19;
             this.btnciudadano.Text = "Ciudadano";
             this.btnciudadano.UseVisualStyleBackColor = true;
+            this.btnciudadano.Click += new System.EventHandler(this.btnciudadano_Click);
             // 
             // pictureBox2
             // 
@@ -130,6 +132,7 @@ namespace Proyecto
             this.btngestor.TabIndex = 15;
             this.btngestor.Text = "Gestor";
             this.btngestor.UseVisualStyleBackColor = true;
+            this.btngestor.Click += new System.EventHandler(this.btngestor_Click);
             // 
             // btnsalir
             // 
@@ -143,6 +146,7 @@ namespace Proyecto
             this.btnsalir.TabIndex = 10;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // btncabina
             // 
@@ -159,6 +163,7 @@ namespace Proyecto
             this.btncabina.TabIndex = 17;
             this.btncabina.Text = "Cabina";
             this.btncabina.UseVisualStyleBackColor = true;
+            this.btncabina.Click += new System.EventHandler(this.btncabina_Click);
             // 
             // pictureBox1
             // 
@@ -185,6 +190,7 @@ namespace Proyecto
             this.btncita.TabIndex = 13;
             this.btncita.Text = "Citas";
             this.btncita.UseVisualStyleBackColor = true;
+            this.btncita.Click += new System.EventHandler(this.btncita_Click_1);
             // 
             // pictureBox3
             // 
@@ -228,6 +234,7 @@ namespace Proyecto
             this.btnmodificar.TabIndex = 34;
             this.btnmodificar.Text = "Modificar";
             this.btnmodificar.UseVisualStyleBackColor = false;
+            this.btnmodificar.Click += new System.EventHandler(this.btnmodificar_Click);
             // 
             // btnguardar
             // 
@@ -255,6 +262,7 @@ namespace Proyecto
             this.btneliminar.TabIndex = 32;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = false;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // dgvGestor
             // 
@@ -264,6 +272,7 @@ namespace Proyecto
             this.dgvGestor.RowTemplate.Height = 25;
             this.dgvGestor.Size = new System.Drawing.Size(497, 273);
             this.dgvGestor.TabIndex = 31;
+            this.dgvGestor.SelectionChanged += new System.EventHandler(this.dgvGestor_SelectionChanged);
             // 
             // label3
             // 
@@ -284,6 +293,7 @@ namespace Proyecto
             this.btnminimizar.Size = new System.Drawing.Size(29, 28);
             this.btnminimizar.TabIndex = 36;
             this.btnminimizar.TabStop = false;
+            this.btnminimizar.Click += new System.EventHandler(this.btnminimizar_Click);
             // 
             // btncerrar
             // 
@@ -293,6 +303,7 @@ namespace Proyecto
             this.btncerrar.Size = new System.Drawing.Size(29, 28);
             this.btncerrar.TabIndex = 35;
             this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // txtNombre
             // 
@@ -403,12 +414,22 @@ namespace Proyecto
             this.txtRespuesta.Size = new System.Drawing.Size(159, 23);
             this.txtRespuesta.TabIndex = 53;
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(685, 61);
+            this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
+            this.txtId.Size = new System.Drawing.Size(48, 23);
+            this.txtId.TabIndex = 55;
+            this.txtId.Visible = false;
+            // 
             // Formgestor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(942, 489);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.txtRespuesta);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
@@ -479,5 +500,6 @@ namespace Proyecto
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtRespuesta;
+        private System.Windows.Forms.TextBox txtId;
     }
 }

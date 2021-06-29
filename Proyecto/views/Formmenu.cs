@@ -7,37 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Proyecto.Controllers;
-using Proyecto.VacunacionContext;
 
-namespace Proyecto
+namespace Proyecto.views
 {
-    public partial class Formcita : Form
+    public partial class Formmenu : Form
     {
-        public Formcita()
+        public Formmenu()
         {
             InitializeComponent();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void Formprincipal_Load(object sender, EventArgs e)
         {
-
-        }
-
-       
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnmodificar_Click(object sender, EventArgs e)
-        {
-
+            
         }
 
         private void btncerrar_Click(object sender, EventArgs e)
@@ -45,20 +27,9 @@ namespace Proyecto
             Application.Exit();
         }
 
-        private void Formcita_Load(object sender, EventArgs e)
+        private void btnminimizar_Click(object sender, EventArgs e)
         {
-            controllerCita CCita = new controllerCita();
-            CCita.read(dgvcabina, CboxDosis, CboxDUI);
-
-            MessageBox.Show("Se ha ingresado datos correctamente", "Clinica",
-                            MessageBoxButtons.OK ,
-                            MessageBoxIcon.Information);
-        }
-        private void button7_Click(object sender, EventArgs e)
-        {
-            controllerCita CCita = new controllerCita();
-            CCita.insert(txtID, txtLugar, DTPfecha, DTPhora, CboxDosis, CboxDUI);
-            CCita.read(dgvcabina, CboxDosis, CboxDUI);
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void btncita_Click(object sender, EventArgs e)
@@ -94,11 +65,6 @@ namespace Proyecto
             Formgestor frm = new Formgestor();
             frm.Show();
             this.Hide();
-        }
-
-        private void btnminimizar_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

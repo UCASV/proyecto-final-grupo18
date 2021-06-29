@@ -58,8 +58,36 @@ namespace Proyecto.Controllers
                 db.SaveChanges();
 
             }
+        }
+
+        public void update(TextBox txtId, TextBox txtUbicacion, ComboBox cmbGestor, TextBox txtEmail, TextBox txtTelefono)
+        {
+            int id = int.Parse(txtId.Text);
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Cabinas.First(i => i.Id == id);
+                std.Ubicacion = txtUbicacion.Text;
+                std.IdGestor = (int)cmbGestor.SelectedValue;
+                std.Email = txtEmail.Text;
+                std.Telefono = txtTelefono.Text;
+
+                db.SaveChanges();
+            }
+        }
+
+        public void delete(TextBox txtId)
+        {
+            int id = int.Parse(txtId.Text);
+
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Cabinas.Single(i => i.Id == id);
+
+                db.Remove(std);
+                db.SaveChanges();
+            }
 
         }
-    }
 
+    }
 }

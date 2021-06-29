@@ -97,7 +97,6 @@ C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.AssemblyReference.cache
-C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Form1.resources
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.GenerateResource.cache
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.AssemblyInfoInputs.cache
@@ -243,7 +242,6 @@ D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final
 D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\ref\Proyecto.dll
 D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.pdb
 D:\Users\Administrador\Desktop\Programacion\2021\POO\Real_project\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
-C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.AssemblyReference.cache
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Properties.Resources.resources
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.frmlogin.resources
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcabina.resources
@@ -306,3 +304,13 @@ C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-win
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.csproj.CopyComplete
 C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.genruntimeconfig.cache
+C:\Users\joeln\Source\Repos\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.views.Formmenu.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Properties.Resources.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.frmlogin.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcabina.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formcita.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formciudadano.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formgestor.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.views.Formmenu.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formnuevo.resources
+C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formolvido.resources
