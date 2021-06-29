@@ -128,7 +128,7 @@ namespace Proyecto.Controllers
             {
                 var std = db.Ciudadanos.Single(i=> i.Dui == id);
 
-                db.Remove(std);
+                db.Remove(std); 
                 db.SaveChanges();
             }
 
