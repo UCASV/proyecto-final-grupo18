@@ -2,7 +2,7 @@
 
 ### Parte 1: Aspectos Tecnicos
 
-- Para la realizacion de este proyecto se ha utilizado :
+*- Para la realizacion de este proyecto se ha utilizado :
 
 1- Microsoft Visual Studios 2019
 
@@ -12,15 +12,17 @@
 
 4- SQL Server Management Studio	15.0.18384.0
 
-- tambien, se utilizarons estos Paquetes:
+*- tambien, se utilizarons estos Paquetes:
 
-1- Microsoft.EntityFrameworkCore  
+1- .Net Core v5.0
 
-2- Microsoft.EntityFrameworkCore.Design
+2- Microsoft.EntityFrameworkCore v5.0.7
 
-3- Microsoft.EntityFrameworkCore.SqlServer
+3- Microsoft.EntityFrameworkCore.Design v5.0.7
 
-  El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control, 
+4- Microsoft.EntityFrameworkCore.SqlServer v5.0.7
+
+El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control, 
 
 ### Parte 2: Instalación
 
