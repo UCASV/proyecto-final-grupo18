@@ -2,7 +2,7 @@
 
 ### Parte 1: Aspectos Tecnicos
 
-*- Para la realizacion de este proyecto se ha utilizado :
+*- Para la realizacion de este proyecto se ha utilizado :*
 
 1- Microsoft Visual Studios 2019
 
@@ -12,7 +12,7 @@
 
 4- SQL Server Management Studio	15.0.18384.0
 
-*- tambien, se utilizarons estos Paquetes:
+*- tambien, se utilizarons estos Paquetes:*
 
 1- .Net Core v5.0
 
