@@ -1,4 +1,4 @@
-## Sistema de Vacunacion
+## Sistema de Vacunacion, Documentación Oficial ##
 
 ### Parte 1: Aspectos Tecnicos
 
@@ -8,13 +8,19 @@
 
 2- Windows 10 Pro
 
-3- Github
+3- SQL Server 2019 Express and Developer
 
-  El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control, tambien utilizamos el ORM que se nos brindó durante todo el curso: Entity Framework Core, en su versión 5.0.7, donde agarramos:
-  
-- Microsoft.EntityFrameworkCore
-- Microsoft.EntityFrameworkCore.Design
-- Microsoft.EntityFrameworkCore.SqlServer
+4- SQL Server Management Studio	15.0.18384.0
+
+- tambien, se utilizarons estos Paquetes:
+
+1- Microsoft.EntityFrameworkCore  
+
+2- Microsoft.EntityFrameworkCore.Design
+
+3- Microsoft.EntityFrameworkCore.SqlServer
+
+  El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control, 
 
 ## Parte 2: Instalación
 
