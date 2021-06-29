@@ -1,4 +1,4 @@
-## Sistema de Vacunacion, Documentación Oficial ##
+# Sistema de Vacunacion, Documentación Oficial #
 
 ### Parte 1: Aspectos Tecnicos
 
