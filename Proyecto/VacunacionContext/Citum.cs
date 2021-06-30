@@ -15,7 +15,7 @@ namespace Proyecto.VacunacionContext
         public int Id { get; set; }
         public string Lugar { get; set; }
         public DateTime ? Fecha { get; set; }
-        public DateTime ? Hora { get; set; }
+        public string Hora { get; set; }
         public int? IdDosis { get; set; }
         public int? DuiCiudadano { get; set; }
 

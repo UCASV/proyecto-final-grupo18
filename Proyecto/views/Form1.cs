@@ -97,7 +97,7 @@ namespace Proyecto
             var db = new Vacunacion_DBContext();
             var users = db.Gestors.ToList();
 
-            var result = users.Where(u => u.CorreoInstitucional == txtuser.Text  && u.Contrasena == txtpass.Text).ToList();
+            var result = users.Where(u => u.CorreoInstitucional == txtuser.Text.Trim()  && u.Contrasena == txtpass.Text.Trim()).ToList();
 
             if (result.Count() == 0)
             {

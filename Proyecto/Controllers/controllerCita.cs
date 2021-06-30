@@ -49,23 +49,55 @@ namespace Proyecto.Controllers
             CboxDUI.ValueMember = "DUI";
             CboxDUI.DisplayMember = "DUI";
         }
-        public void insert(TextBox txtID, TextBox txtLugar, DateTimePicker DTPfecha, DateTimePicker DTPhora, ComboBox CboxDosis, ComboBox CboxDUI)
-        {
+        public void insert(TextBox txtLugar, DateTimePicker DTPfecha, DateTimePicker DTPhora, ComboBox CboxDosis, ComboBox CboxDUI)
+        {           
             using (var db = new Vacunacion_DBContext())
             {
                 var STD = new Citum()
-                {
-                    Id = Convert.ToInt32(txtID.Text),
+                {                    
                     Lugar = txtLugar.Text,
-                    //Fecha = DTPfecha.Value.ToString("yyyy/mm/dd"),
-                    //Hora = DTPhora.Value.ToString("hh"),
+                    Fecha = DTPfecha.Value,
+                    Hora = DTPhora.Value.ToString("T"),
                     IdDosis = (int)CboxDosis.SelectedValue,
-                    DuiCiudadano = (int)CboxDUI.SelectedIndex
-                    
+                    DuiCiudadano = (int)CboxDUI.SelectedValue                  
+
                 };
                 db.Cita.Add(STD);
                 db.SaveChanges();
+            }           
+        }
+
+        public void update(TextBox txtId, TextBox txtLugar, DateTimePicker DTPfecha, DateTimePicker DTPhora, ComboBox CboxDosis, ComboBox CboxDUI)
+        {
+            int id = int.Parse(txtId.Text);
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Cita.First(i => i.Id == id);
+                std.Lugar = txtLugar.Text;
+                std.Fecha = DTPfecha.Value;
+                std.Hora = DTPhora.Value.ToString("T");
+                std.IdDosis = (int) CboxDosis.SelectedValue;
+                std.DuiCiudadano = (int) CboxDUI.SelectedValue;
+
+                db.SaveChanges();
+              
             }
         }
+
+        public void delete(TextBox txtId)
+        {
+            int id = int.Parse(txtId.Text);
+
+            using (var db = new Vacunacion_DBContext())
+            {
+                var std = db.Cita.Where(i=> i.Id == id);
+
+                db.Remove(std);
+                db.SaveChanges();
+            }
+
+        }
+
+
     }
 }

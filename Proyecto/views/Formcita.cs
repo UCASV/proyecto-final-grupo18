@@ -37,27 +37,27 @@ namespace Proyecto
 
         private void btnmodificar_Click(object sender, EventArgs e)
         {
-
+            controllerCita Ccita = new controllerCita();
+            Ccita.update(txtID, txtLugar, DTPfecha, DTPhora, CboxDosis, CboxDUI);
+            Ccita.read(dgvcabina, CboxDosis, CboxDUI);
         }
 
         private void btncerrar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            frmlogin frm = new frmlogin();
+            frm.Show();
+            this.Close();
         }
 
         private void Formcita_Load(object sender, EventArgs e)
         {
             controllerCita CCita = new controllerCita();
-            CCita.read(dgvcabina, CboxDosis, CboxDUI);
-
-            MessageBox.Show("Se ha ingresado datos correctamente", "Clinica",
-                            MessageBoxButtons.OK ,
-                            MessageBoxIcon.Information);
+            CCita.read(dgvcabina, CboxDosis, CboxDUI);            
         }
         private void button7_Click(object sender, EventArgs e)
         {
             controllerCita CCita = new controllerCita();
-            CCita.insert(txtID, txtLugar, DTPfecha, DTPhora, CboxDosis, CboxDUI);
+            CCita.insert(txtLugar, DTPfecha, DTPhora, CboxDosis, CboxDUI);
             CCita.read(dgvcabina, CboxDosis, CboxDUI);
         }
 
@@ -99,6 +99,24 @@ namespace Proyecto
         private void btnminimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void dgvcabina_SelectionChanged(object sender, EventArgs e)
+        {
+            txtID.Text = dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[0].Value.ToString();
+            txtLugar.Text = dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[1].Value.ToString();
+            DTPfecha.Value = DateTime.Parse(dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[2].Value.ToString());
+            DTPhora.Value = DateTime.Parse(dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[3].Value.ToString());
+            CboxDosis.SelectedValue = (int) dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[4].Value;
+            CboxDUI.SelectedValue = (int) dgvcabina.Rows[dgvcabina.CurrentRow.Index].Cells[5].Value;
+            
+        }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            controllerCita Ccita = new controllerCita();
+            Ccita.delete(txtID);
+            Ccita.read(dgvcabina, CboxDosis, CboxDUI);
         }
     }
 }

@@ -257,13 +257,14 @@ namespace Proyecto
             this.dgvcabina.Size = new System.Drawing.Size(444, 273);
             this.dgvcabina.TabIndex = 12;
             this.dgvcabina.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dgvcabina.SelectionChanged += new System.EventHandler(this.dgvcabina_SelectionChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(715, 157);
+            this.label1.Location = new System.Drawing.Point(716, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 17);
             this.label1.TabIndex = 13;
@@ -275,7 +276,7 @@ namespace Proyecto
             this.txtemail.AutoSize = true;
             this.txtemail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtemail.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.txtemail.Location = new System.Drawing.Point(715, 275);
+            this.txtemail.Location = new System.Drawing.Point(715, 222);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(37, 17);
             this.txtemail.TabIndex = 17;
@@ -286,7 +287,7 @@ namespace Proyecto
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label5.Location = new System.Drawing.Point(716, 340);
+            this.label5.Location = new System.Drawing.Point(715, 287);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 17);
             this.label5.TabIndex = 19;
@@ -304,6 +305,7 @@ namespace Proyecto
             this.btneliminar.TabIndex = 22;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = false;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // btnguardar
             // 
@@ -335,7 +337,7 @@ namespace Proyecto
             // 
             // DTPfecha
             // 
-            this.DTPfecha.Location = new System.Drawing.Point(715, 249);
+            this.DTPfecha.Location = new System.Drawing.Point(716, 189);
             this.DTPfecha.Name = "DTPfecha";
             this.DTPfecha.Size = new System.Drawing.Size(222, 23);
             this.DTPfecha.TabIndex = 53;
@@ -344,7 +346,7 @@ namespace Proyecto
             // 
             this.txtLugar.BackColor = System.Drawing.Color.White;
             this.txtLugar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtLugar.Location = new System.Drawing.Point(715, 187);
+            this.txtLugar.Location = new System.Drawing.Point(716, 124);
             this.txtLugar.Name = "txtLugar";
             this.txtLugar.Size = new System.Drawing.Size(222, 25);
             this.txtLugar.TabIndex = 54;
@@ -353,9 +355,9 @@ namespace Proyecto
             // 
             this.DTPhora.CustomFormat = "hh";
             this.DTPhora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.DTPhora.Location = new System.Drawing.Point(715, 302);
+            this.DTPhora.Location = new System.Drawing.Point(716, 253);
             this.DTPhora.Name = "DTPhora";
-            this.DTPhora.Size = new System.Drawing.Size(69, 23);
+            this.DTPhora.Size = new System.Drawing.Size(148, 23);
             this.DTPhora.TabIndex = 55;
             // 
             // label2
@@ -363,7 +365,7 @@ namespace Proyecto
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label2.Location = new System.Drawing.Point(715, 215);
+            this.label2.Location = new System.Drawing.Point(716, 164);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 17);
             this.label2.TabIndex = 56;
@@ -372,17 +374,17 @@ namespace Proyecto
             // CboxDosis
             // 
             this.CboxDosis.FormattingEnabled = true;
-            this.CboxDosis.Location = new System.Drawing.Point(716, 360);
+            this.CboxDosis.Location = new System.Drawing.Point(716, 307);
             this.CboxDosis.Name = "CboxDosis";
-            this.CboxDosis.Size = new System.Drawing.Size(121, 23);
+            this.CboxDosis.Size = new System.Drawing.Size(148, 23);
             this.CboxDosis.TabIndex = 57;
             // 
             // CboxDUI
             // 
             this.CboxDUI.FormattingEnabled = true;
-            this.CboxDUI.Location = new System.Drawing.Point(715, 411);
+            this.CboxDUI.Location = new System.Drawing.Point(716, 374);
             this.CboxDUI.Name = "CboxDUI";
-            this.CboxDUI.Size = new System.Drawing.Size(121, 23);
+            this.CboxDUI.Size = new System.Drawing.Size(148, 23);
             this.CboxDUI.TabIndex = 58;
             // 
             // label4
@@ -390,7 +392,7 @@ namespace Proyecto
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label4.Location = new System.Drawing.Point(716, 391);
+            this.label4.Location = new System.Drawing.Point(715, 344);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 17);
             this.label4.TabIndex = 59;

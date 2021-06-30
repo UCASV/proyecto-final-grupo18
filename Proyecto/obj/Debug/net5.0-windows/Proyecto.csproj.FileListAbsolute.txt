@@ -314,3 +314,4 @@ C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.views.Formmenu.resources
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formnuevo.resources
 C:\Users\USUARIO1\Desktop\Proyecto POO\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.Formolvido.resources
+C:\Users\User\Desktop\proyecto-final-grupo18\Proyecto\obj\Debug\net5.0-windows\Proyecto.views.Formmenu.resources
