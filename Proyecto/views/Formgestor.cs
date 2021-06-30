@@ -140,5 +140,10 @@ namespace Proyecto
             MessageBox.Show("Usuario Eliminado correctamente", "Clinica",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void dgvGestor_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

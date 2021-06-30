@@ -127,12 +127,14 @@ namespace Proyecto
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            Formolvido frm = new Formolvido();
+            frm.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Formolvido frm = new Formolvido();
+            Formnuevo frm = new Formnuevo();
             frm.Show();
             this.Hide();
         }

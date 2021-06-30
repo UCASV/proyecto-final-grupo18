@@ -272,6 +272,7 @@ namespace Proyecto
             this.dgvGestor.RowTemplate.Height = 25;
             this.dgvGestor.Size = new System.Drawing.Size(497, 273);
             this.dgvGestor.TabIndex = 31;
+            this.dgvGestor.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGestor_CellContentClick);
             this.dgvGestor.SelectionChanged += new System.EventHandler(this.dgvGestor_SelectionChanged);
             // 
             // label3
@@ -379,6 +380,7 @@ namespace Proyecto
             // 
             // cmbPrgunta
             // 
+            this.cmbPrgunta.Enabled = false;
             this.cmbPrgunta.FormattingEnabled = true;
             this.cmbPrgunta.Location = new System.Drawing.Point(771, 318);
             this.cmbPrgunta.Name = "cmbPrgunta";

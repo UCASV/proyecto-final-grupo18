@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Proyecto.VacunacionContext;
+using Proyecto.Controllers;
 
 namespace Proyecto
 {
@@ -25,7 +26,8 @@ namespace Proyecto
 
         private void Formnuevo_Load(object sender, EventArgs e)
         {
-
+            controllerGestor controler = new controllerGestor();
+            controler.read2(cmbPregunta);
         }
 
         private void cmbPregunta_SelectedIndexChanged(object sender, EventArgs e)
@@ -46,6 +48,23 @@ namespace Proyecto
         private void btnminimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmlogin frm = new frmlogin();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            controllerGestor controler = new controllerGestor();
+            controler.insert(txtNombre, txtCorreo, txtDireccion, txtContra, cmbPregunta, txtRespuesta);
+            controler.read2(cmbPregunta);
+
+            MessageBox.Show("Usuario insertado correctamente", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
