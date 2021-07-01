@@ -5,13 +5,13 @@
 
 *- Para la realizacion de este proyecto se ha utilizado :*
 
-1- Microsoft Visual Studios 2019
+1- [Microsoft Visual Studios 2019](https://visualstudio.microsoft.com/es/vs/)
 
 2- Windows 10 Pro
 
-3- SQL Server 2019 Express and Developer
+3- [SQL Server 2019](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) Express and Developer
 
-4- SQL Server Management Studio	15.0.18384.0
+4- [SQL Server Management Studio	15.0.18384.0](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 
 *- tambien, se utilizarons estos Paquetes:*
 
