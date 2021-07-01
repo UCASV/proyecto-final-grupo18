@@ -93,6 +93,7 @@ namespace Proyecto.views
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formsesion";
             this.Text = "Formsesion";
+            this.Load += new System.EventHandler(this.Formsesion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvusuarios)).EndInit();

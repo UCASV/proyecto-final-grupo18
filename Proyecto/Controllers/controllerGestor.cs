@@ -14,8 +14,6 @@ namespace Proyecto.Controllers
         public void read(DataGridView dgvGestor, ComboBox cmbPregunta)
         {
             List<VacunacionContext.Pregunta> listaPreguntas = new List<VacunacionContext.Pregunta>();//Lista enfermedades
-    
-
 
             using (var db = new Vacunacion_DBContext())
             {
@@ -123,6 +121,54 @@ namespace Proyecto.Controllers
                 db.SaveChanges();
             }
 
+        }
+
+        public bool login (TextBox txtuser, TextBox txtpass)
+        {
+
+            using (var db = new Vacunacion_DBContext())
+            {
+                var users = db.Gestors.ToList();
+
+                var result = users.Where(u => u.CorreoInstitucional == txtuser.Text.Trim() && u.Contrasena == txtpass.Text.Trim()).ToList();
+
+                var regis = from d in db.Gestors select d.Id;
+
+                if (result.Count() != 0)
+                {
+                    registro(regis.First());
+                    return true;
+                }
+                
+                else
+                    return false;                            
+
+            }           
+        }
+
+        public void registro(int Id)
+        {
+            using (var db = new Vacunacion_DBContext ())
+            {
+                var std = new Registro ()
+                {
+                    IdGestor = Id,
+                    Fechayhora = DateTime.Now
+                };
+
+                db.Registros.Add(std);
+                db.SaveChanges();
+            }
+        }
+        
+        public void readRegistro(DataGridView data)
+        {
+            using (var db = new Vacunacion_DBContext())
+            {
+                var registros = db.Registros.ToList();
+                data.DataSource = registros;              
+
+            }
         }
     }
 }

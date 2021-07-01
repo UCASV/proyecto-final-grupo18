@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Proyecto.Controllers;
 
 namespace Proyecto.views
 {
@@ -30,6 +31,12 @@ namespace Proyecto.views
         private void btnsalir_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Formsesion_Load(object sender, EventArgs e)
+        {
+            controllerGestor controller = new controllerGestor();
+            controller.readRegistro(dgvusuarios);
         }
     }
 }

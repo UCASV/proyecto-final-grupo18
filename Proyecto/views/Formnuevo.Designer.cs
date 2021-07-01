@@ -143,11 +143,10 @@ namespace Proyecto
             this.txtContra.Name = "txtContra";
             this.txtContra.Size = new System.Drawing.Size(100, 26);
             this.txtContra.TabIndex = 23;
-            this.txtContra.Text = "Contrasena";
+            this.txtContra.Text = "Password";
             // 
             // cmbPregunta
             // 
-            this.cmbPregunta.Enabled = false;
             this.cmbPregunta.FormattingEnabled = true;
             this.cmbPregunta.Location = new System.Drawing.Point(53, 346);
             this.cmbPregunta.Name = "cmbPregunta";
@@ -165,7 +164,7 @@ namespace Proyecto
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(187, 26);
             this.textBox10.TabIndex = 27;
-            this.textBox10.Text = "Pregunta?";
+            this.textBox10.Text = "Pregunta";
             // 
             // txtRespuesta
             // 
@@ -210,7 +209,7 @@ namespace Proyecto
             // 
             // progressBar5
             // 
-            this.progressBar5.Location = new System.Drawing.Point(53, 418);
+            this.progressBar5.Location = new System.Drawing.Point(53, 407);
             this.progressBar5.Name = "progressBar5";
             this.progressBar5.Size = new System.Drawing.Size(413, 10);
             this.progressBar5.TabIndex = 34;

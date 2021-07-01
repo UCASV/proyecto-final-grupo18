@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Microsoft.EntityFrameworkCore;
 using Proyecto.VacunacionContext;
+using Proyecto.Controllers;
 
 namespace Proyecto
 {
@@ -79,8 +80,8 @@ namespace Proyecto
                 txtpass.ForeColor = Color.LightGray;
                 txtpass.UseSystemPasswordChar = true;
             
-                }
             }
+        }
 
         private void txtpass_Leave(object sender, EventArgs e)
         {
@@ -94,33 +95,21 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var db = new Vacunacion_DBContext();
-            var users = db.Gestors.ToList();
+            controllerGestor controller = new controllerGestor();
 
-            var result = users.Where(u => u.CorreoInstitucional == txtuser.Text.Trim()  && u.Contrasena == txtpass.Text.Trim()).ToList();
-
-            if (result.Count() == 0)
-            {
-                
-                MessageBox.Show("El usuario no existe", "Clinica",
-                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
-                
-                //MessageBox.Show(txtuser.Text, "Clinica",
-                //MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
-                //MessageBox.Show(txtpass.Text, "Clinica",
-                //MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
-            }
-            else
+            if (controller.login(txtuser, txtpass))
             {
                 MessageBox.Show("Bienvenido", "Clinica",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
-                //Muestro el formulario principal falta esto.
+                //Muestra el formulario correspondiente
                 Formciudadano frm = new Formciudadano();
                 frm.Show();
-                this.Hide();
+                this.Hide();                
+            }
+            else
+            {
+                MessageBox.Show("El usuario no existe", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
         }
@@ -134,9 +123,23 @@ namespace Proyecto
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Formnuevo frm = new Formnuevo();
-            frm.Show();
-            this.Hide();
+            controllerGestor controller = new controllerGestor();
+
+            if (controller.login(txtuser, txtpass))
+            {
+                MessageBox.Show("Bienvenido", "Clínica",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //Muestra el formulario correspondiente
+                Formnuevo frm = new Formnuevo();
+                frm.Show();
+                this.Hide();
+                
+            }
+            else
+            {
+                MessageBox.Show("ponga el email y password válidos para crear un usuario", "Clínica",
+                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
     }
 }

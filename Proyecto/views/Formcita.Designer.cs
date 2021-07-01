@@ -48,7 +48,6 @@ namespace Proyecto
             this.label1 = new System.Windows.Forms.Label();
             this.txtemail = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.btneliminar = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnmodificar = new System.Windows.Forms.Button();
             this.DTPfecha = new System.Windows.Forms.DateTimePicker();
@@ -59,6 +58,7 @@ namespace Proyecto
             this.CboxDUI = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
+            this.btnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.panel1.SuspendLayout();
@@ -293,27 +293,13 @@ namespace Proyecto
             this.label5.TabIndex = 19;
             this.label5.Text = "Dosis";
             // 
-            // btneliminar
-            // 
-            this.btneliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.btneliminar.FlatAppearance.BorderSize = 0;
-            this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btneliminar.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.btneliminar.Location = new System.Drawing.Point(245, 411);
-            this.btneliminar.Name = "btneliminar";
-            this.btneliminar.Size = new System.Drawing.Size(115, 44);
-            this.btneliminar.TabIndex = 22;
-            this.btneliminar.Text = "Eliminar";
-            this.btneliminar.UseVisualStyleBackColor = false;
-            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
-            // 
             // btnguardar
             // 
             this.btnguardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.btnguardar.FlatAppearance.BorderSize = 0;
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnguardar.Location = new System.Drawing.Point(559, 411);
+            this.btnguardar.Location = new System.Drawing.Point(574, 411);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(115, 44);
             this.btnguardar.TabIndex = 23;
@@ -327,7 +313,7 @@ namespace Proyecto
             this.btnmodificar.FlatAppearance.BorderSize = 0;
             this.btnmodificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmodificar.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnmodificar.Location = new System.Drawing.Point(400, 411);
+            this.btnmodificar.Location = new System.Drawing.Point(425, 411);
             this.btnmodificar.Name = "btnmodificar";
             this.btnmodificar.Size = new System.Drawing.Size(115, 44);
             this.btnmodificar.TabIndex = 24;
@@ -407,12 +393,27 @@ namespace Proyecto
             this.txtID.TabIndex = 60;
             this.txtID.Visible = false;
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.ForeColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnEliminar.Location = new System.Drawing.Point(274, 411);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(115, 44);
+            this.btnEliminar.TabIndex = 61;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // Formcita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(57)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(949, 494);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.CboxDUI);
@@ -423,7 +424,6 @@ namespace Proyecto
             this.Controls.Add(this.DTPfecha);
             this.Controls.Add(this.btnmodificar);
             this.Controls.Add(this.btnguardar);
-            this.Controls.Add(this.btneliminar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtemail);
             this.Controls.Add(this.label1);
@@ -470,7 +470,6 @@ namespace Proyecto
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label txtemail;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btnmodificar;
         private System.Windows.Forms.DateTimePicker DTPfecha;
@@ -481,5 +480,6 @@ namespace Proyecto
         private System.Windows.Forms.ComboBox CboxDUI;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.Button btnEliminar;
     }
 }

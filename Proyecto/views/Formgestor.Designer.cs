@@ -380,7 +380,6 @@ namespace Proyecto
             // 
             // cmbPrgunta
             // 
-            this.cmbPrgunta.Enabled = false;
             this.cmbPrgunta.FormattingEnabled = true;
             this.cmbPrgunta.Location = new System.Drawing.Point(771, 318);
             this.cmbPrgunta.Name = "cmbPrgunta";

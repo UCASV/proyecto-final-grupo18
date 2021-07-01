@@ -42,7 +42,7 @@ namespace Proyecto
             controler.insert(txtDui, txtNombre, txtDireccion, txtEmail, txtTelefono, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
             controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
 
-            MessageBox.Show("Usuario insertado correctamente", "Clinica",
+            MessageBox.Show("Ciudadano insertado correctamente", "Clinica",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
@@ -60,7 +60,7 @@ namespace Proyecto
            controler.update(txtId, txtDui, txtNombre, txtDireccion, txtEmail, txtTelefono, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);  
            controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
 
-            MessageBox.Show("Usuario Modificó correctamente", "Clinica",
+            MessageBox.Show("El ciudadano se Modificó correctamente", "Clinica",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
@@ -100,7 +100,7 @@ namespace Proyecto
 
             controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
 
-            MessageBox.Show("Usuario insertado correctamente", "Clinica",
+            MessageBox.Show("Ciudadano eliminado correctamente", "Clinica",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }

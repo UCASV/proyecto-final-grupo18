@@ -90,7 +90,7 @@ namespace Proyecto.Controllers
 
             using (var db = new Vacunacion_DBContext())
             {
-                var std = db.Cita.Where(i=> i.Id == id);
+                var std = db.Cita.Single(i=> i.Id == id);
 
                 db.Remove(std);
                 db.SaveChanges();

@@ -112,11 +112,14 @@ namespace Proyecto
             
         }
 
-        private void btneliminar_Click(object sender, EventArgs e)
+        private void btnEliminar_Click(object sender, EventArgs e)
         {
-            controllerCita Ccita = new controllerCita();
-            Ccita.delete(txtID);
-            Ccita.read(dgvcabina, CboxDosis, CboxDUI);
+            controllerCita controller = new controllerCita();
+            controller.delete(txtID);
+            controller.read(dgvcabina, CboxDosis, CboxDUI);
+
+            MessageBox.Show("Cita eliminada correctamente", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
