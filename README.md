@@ -33,7 +33,7 @@ El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC
 3- Como Gestor de Base de datos se utilizo Microsoft SQL Server, usted puede utilizar el que desee
 
 ### Parte 3: Manual de usuario
-La [ Documentacion oficial ] ( https://github.com/UCASV/proyecto-final-grupo18/blob/master/BDProyecto/Documentacion%20Oficial.pdf )
+La [ Documentacion oficial ]( https://github.com/UCASV/proyecto-final-grupo18/blob/master/BDProyecto/Documentacion%20Oficial.pdf )
 
 
 
