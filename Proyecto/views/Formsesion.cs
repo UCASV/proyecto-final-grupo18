@@ -11,9 +11,9 @@ using Proyecto.Controllers;
 
 namespace Proyecto.views
 {
-    public partial class Formsesion : Form
+    public partial class frmSesion : Form
     {
-        public Formsesion()
+        public frmSesion()
         {
             InitializeComponent();
         }

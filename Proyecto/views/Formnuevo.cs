@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Proyecto.VacunacionContext;
 using Proyecto.Controllers;
-
+using Proyecto.views;
 namespace Proyecto
 {
     public partial class Formnuevo : Form
@@ -65,6 +65,13 @@ namespace Proyecto
 
             MessageBox.Show("Usuario insertado correctamente", "Clinica",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmSesion frm = new frmSesion();
+            frm.Show();
+            this.Close();
         }
     }
 }
