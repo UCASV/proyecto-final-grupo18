@@ -26,5 +26,8 @@
     <Compile Update="views\Formmenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="views\Formsesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

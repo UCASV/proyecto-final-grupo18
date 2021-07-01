@@ -454,6 +454,7 @@ namespace Proyecto
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formgestor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formgestor";
             this.Load += new System.EventHandler(this.Formgestor_Load);
             this.panel1.ResumeLayout(false);

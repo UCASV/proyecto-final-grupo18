@@ -40,6 +40,9 @@ namespace Proyecto
             controllerCita Ccita = new controllerCita();
             Ccita.update(txtID, txtLugar, DTPfecha, DTPhora, CboxDosis, CboxDUI);
             Ccita.read(dgvcabina, CboxDosis, CboxDUI);
+
+            MessageBox.Show("Usuario Modificado correctamente", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btncerrar_Click(object sender, EventArgs e)
@@ -117,6 +120,8 @@ namespace Proyecto
             controllerCita Ccita = new controllerCita();
             Ccita.delete(txtID);
             Ccita.read(dgvcabina, CboxDosis, CboxDUI);
+            MessageBox.Show("Usuario Eliminado correctamente", "Clinica",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

@@ -235,6 +235,7 @@ namespace Proyecto.views
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formmenu";
             this.Opacity = 0.1D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formprincipal";
             this.Load += new System.EventHandler(this.Formprincipal_Load);
             this.panel1.ResumeLayout(false);

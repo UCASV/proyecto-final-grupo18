@@ -100,7 +100,7 @@ namespace Proyecto
 
             controler.read(dgvCiudadanos, comboBoxEnefermedades, comboBoxEmpleo, comboBoxDosis);
 
-            MessageBox.Show("Usuario insertado correctamente", "Clinica",
+            MessageBox.Show("Usuario Eliminado correctamente", "Clinica",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }

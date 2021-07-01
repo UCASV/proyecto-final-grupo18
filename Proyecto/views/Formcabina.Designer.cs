@@ -411,6 +411,7 @@ namespace Proyecto
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formcabina";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formcabina";
             this.Load += new System.EventHandler(this.Formcabina_Load);
             this.panel1.ResumeLayout(false);
