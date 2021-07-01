@@ -1,7 +1,7 @@
 # Sistema de Vacunacion, Documentación Oficial #
-==============
 
-### Parte 1: Aspectos Tecnicos
+
+### Aspectos Tecnicos
 
 *- Para la realizacion de este proyecto se ha utilizado :*
 
@@ -23,18 +23,16 @@
 
 4- Microsoft.EntityFrameworkCore.SqlServer v5.0.7
 
-El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control, 
+El patron de diseño utilizado en este proyecto es Modelo-Vista Controlador (MVC), la razon por la cual lo usamos es por su facilidad a la hora de serparar entre la lógica de negocios y su visualización, tambien por lo facil que es implementar interfaces de usuario, datos y lógica de control.
 
-### Parte 2: Instalación
+### Otros Apartados
 
-1- En primera instancia, descomprime el archivo .zip, veras que te dejo un archivo .exe de xxx mb, dele click y comenzará la instalacion y una vez instalado podrá utilizar nuestro programa, sin olvidar el siguiente paso..
+1- Se debe utilizar una base de datos existente para poder utilizarse correctamente, por lo cual se le brindará un banco de datos. 
 
-2- Se debe utilizar una base de datos existente para poder utilizarse correctamente, por lo cual se le brinda un banco de datos. 
+2- Como Gestor de Base de datos se utilizo Microsoft SQL Server y Managment Studio, usted puede utilizar el que le parezca ideal, para nosotros el gestor creado por Microsoft nos ha dejado maravillado
 
-3- Como Gestor de Base de datos se utilizo Microsoft SQL Server, usted puede utilizar el que desee
-
-### Parte 3: Manual de usuario
-La [ Documentacion oficial ]( https://github.com/UCASV/proyecto-final-grupo18/blob/master/BDProyecto/Documentacion%20Oficial.pdf )
+### Manual de usuario
+El [ Manual de usuario ]( https://github.com/UCASV/proyecto-final-grupo18/blob/master/BDProyecto/Documentacion%20Oficial.pdf ) del sistema
 
 
 
