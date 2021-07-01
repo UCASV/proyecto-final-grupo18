@@ -92,6 +92,7 @@ namespace Proyecto.views
             this.Controls.Add(this.btncerrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formsesion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formsesion";
             this.Load += new System.EventHandler(this.Formsesion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();

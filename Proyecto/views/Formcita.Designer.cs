@@ -434,6 +434,7 @@ namespace Proyecto
             this.Controls.Add(this.btncerrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formcita";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formcita";
             this.Load += new System.EventHandler(this.Formcita_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();

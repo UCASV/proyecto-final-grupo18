@@ -501,6 +501,7 @@ namespace Proyecto
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formciudadano";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formciudadano";
             this.Load += new System.EventHandler(this.Formciudadano_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

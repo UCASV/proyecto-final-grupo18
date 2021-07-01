@@ -247,6 +247,7 @@ namespace Proyecto
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formolvido";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formolvido";
             this.Load += new System.EventHandler(this.Formolvido_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();

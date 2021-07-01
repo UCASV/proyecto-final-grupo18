@@ -71,7 +71,7 @@ namespace Proyecto
             this.txtNombre.ForeColor = System.Drawing.Color.DarkGray;
             this.txtNombre.Location = new System.Drawing.Point(53, 59);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(100, 26);
+            this.txtNombre.Size = new System.Drawing.Size(282, 26);
             this.txtNombre.TabIndex = 11;
             this.txtNombre.Text = "NOMBRE";
             // 
@@ -83,7 +83,7 @@ namespace Proyecto
             this.txtCorreo.ForeColor = System.Drawing.Color.DarkGray;
             this.txtCorreo.Location = new System.Drawing.Point(53, 131);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(100, 26);
+            this.txtCorreo.Size = new System.Drawing.Size(282, 26);
             this.txtCorreo.TabIndex = 13;
             this.txtCorreo.Text = "CORREO";
             // 
@@ -95,7 +95,7 @@ namespace Proyecto
             this.txtDireccion.ForeColor = System.Drawing.Color.DarkGray;
             this.txtDireccion.Location = new System.Drawing.Point(53, 192);
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(100, 26);
+            this.txtDireccion.Size = new System.Drawing.Size(282, 26);
             this.txtDireccion.TabIndex = 15;
             this.txtDireccion.Text = "DIRECCION";
             // 
@@ -141,7 +141,7 @@ namespace Proyecto
             this.txtContra.ForeColor = System.Drawing.Color.DarkGray;
             this.txtContra.Location = new System.Drawing.Point(53, 253);
             this.txtContra.Name = "txtContra";
-            this.txtContra.Size = new System.Drawing.Size(100, 26);
+            this.txtContra.Size = new System.Drawing.Size(282, 26);
             this.txtContra.TabIndex = 23;
             this.txtContra.Text = "Password";
             // 
@@ -174,7 +174,7 @@ namespace Proyecto
             this.txtRespuesta.ForeColor = System.Drawing.Color.DarkGray;
             this.txtRespuesta.Location = new System.Drawing.Point(53, 375);
             this.txtRespuesta.Name = "txtRespuesta";
-            this.txtRespuesta.Size = new System.Drawing.Size(187, 26);
+            this.txtRespuesta.Size = new System.Drawing.Size(282, 26);
             this.txtRespuesta.TabIndex = 29;
             this.txtRespuesta.Text = "Respuesta";
             this.txtRespuesta.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
@@ -253,6 +253,7 @@ namespace Proyecto
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formnuevo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formnuevo";
             this.Load += new System.EventHandler(this.Formnuevo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();
